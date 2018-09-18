@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'fira_sans_condensedsemibold';
+    src: url('FiraSansCondensed-SemiBold-webfont.eot');
+    src: url('FiraSansCondensed-SemiBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('FiraSansCondensed-SemiBold-webfont.woff2') format('woff2'),
+         url('FiraSansCondensed-SemiBold-webfont.woff') format('woff'),
+         url('FiraSansCondensed-SemiBold-webfont.ttf') format('truetype'),
+         url('FiraSansCondensed-SemiBold-webfont.svg#fira_sans_condensedsemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

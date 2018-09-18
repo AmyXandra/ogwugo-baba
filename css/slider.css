@@ -1,0 +1,10 @@
+.box-slider.opt-1 .item-slide{
+    background-image: url("../images/slider-2-1.jpg");
+    height: 400px;
+}
+.box-slider.opt-1 .item-slide.item-2{
+    background-image: url("../images/slider-2-2.jpg");
+}
+.box-slider.opt-1 .item-slide.item-3{
+    background-image: url("../images/slider-2-3.jpg");
+}

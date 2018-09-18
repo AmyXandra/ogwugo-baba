@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'fira_sans_condensedbook';
+    src: url('FiraSansCondensed-Book-webfont.eot');
+    src: url('FiraSansCondensed-Book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('FiraSansCondensed-Book-webfont.woff2') format('woff2'),
+         url('FiraSansCondensed-Book-webfont.woff') format('woff'),
+         url('FiraSansCondensed-Book-webfont.ttf') format('truetype'),
+         url('FiraSansCondensed-Book-webfont.svg#fira_sans_condensedbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

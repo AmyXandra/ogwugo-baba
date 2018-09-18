@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="bd56673f-9b04-4a7a-8cc8-0d49d86ba123" name="worldmart-rtl" url="http://worldmart-rtl.kutethemes.net">
+        <fileTransfer host="worldmart-rtl.kutethemes.net" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,237 @@
+/********Main-color4********/
+.box-slider.opt-5 .btn-slider,
+.tab-head.style3 .box-tab li.active a,
+.tab-head.style3 .box-tab li a:hover,
+.product-item .group-btn-control .inner .button,
+.price,
+.footer .copyright a,
+.menu-footer li a:hover,
+.main-menu>li>a:hover,
+.header-top .header-sale span,
+.header-top .header-contact span,
+.deal-week .btn-shop-now,
+.deal-week .deal-week-content .title span,
+.banner-text.style2 .r-text span,
+.title-head.style3 .des span,
+.product-item .cat-list,
+.product-item .product-name a:hover,
+.mini-cart-content .price,
+.mini-cart-content .product-name a:hover,
+.mini-cart-content .remove:hover,
+.main-menu .megamenu li a:hover,
+.box-slider .price,
+.btn-slider,
+.box-slider .tab-head .box-tab li a:hover,
+.quick-view:hover{
+    color: #fac451;
+}
+.product-item .group-btn-control .inner .add_to_cart,
+.footer .newsletter-content .submit-button,
+.social-footer li a:hover,
+.deal-week .btn-shop-now,
+.header-cart .count,
+.mini-cart-content .actions .btn-checkout,
+.mobile-navigation .icon>span,
+.box-slider .tab-head .box-tab li.active:before{
+    background-color: #fac451;
+}
+.box-slider.opt-5 .btn-slider,
+.social-footer li a:hover,
+.deal-week .kt-countdown .number,
+.banner-text.style2:before,
+.product-item .group-btn-control .inner .button:hover{
+    border-color: #fac451;
+}
+.product-item .product-name{
+    font-weight: 400;
+    color: #252525;
+}
+/*header*/
+.header.style2 .header-top,
+.header.style2 .register,
+.header.style2 .header-top .switcher-item:after{
+    color: #eeeae2;
+}
+.header.style2 .header-top{
+    border-bottom: 1px solid #ededed1f;
+}
+.header.style2 .header-top .switcher-language > .switcher-item,
+.header.style2 .header-top .switcher-current > .switcher-item{
+    border-right: 1px solid #dcdcdc1c;
+}
+.header-cart .icon,
+.header.style2 .button-search,
+.main-menu>li>a{
+    color: #eeeae2;
+}
+.header-cart .count{
+    color: #181818;
+}
+.header.style2 .header-search{
+    margin-left: 36px;
+}
+.header.style2 .form-search-header{
+    border: none;
+}
+.header.style2 .form-search-header input{
+    background: #111111;
+}
+.header.style2 .main-header .logo{
+    width: 245px;
+}
+@media (max-width: 1199px) and (min-width: 1024px) {
+    .header.style2 .main-header .logo {
+        width: 187px;
+    }
+    .header.style2 .header-search {
+        margin-left: 20px;
+    }
+    .main-menu>li {
+        margin-right: 15px;
+    }
+}
+/*content*/
+.banner-text.style2 .r-text span{
+    font-weight: 500;
+}
+.product-item,
+.product-item .group-btn-control{
+    background: #111111;
+    box-shadow: none;
+    border-color: transparent;
+}
+.product-item:hover,
+.product-item:hover .group-btn-control,
+.product-item:not(.style2):not(.style3):not(.style4):not(.product-list-item):hover{
+    box-shadow: none;
+}
+.product-item:hover{
+    border-bottom: 1px solid transparent!important;
+}
+.product-item:hover{
+    border:1px solid #4e453a!important;
+}
+.product-item:hover .group-btn-control{
+    border:1px solid #4e453a!important;
+}
+.product-item:hover .group-btn-control{
+    border-top:transparent!important;
+    bottom: -81px;
+}
+.product-item:hover .product-content{
+    border-bottom:1px solid transparent;
+}
+.product-item .product-name{
+    color: #eeeae2;
+}
+.product-item .product-content{
+    border-top-color:transparent;
+}
+.product-item .group-btn-control{
+    padding-top: 0;
+}
+.product-item .group-btn-control .inner{
+    border-top:1px solid #ededed1f;
+}
+.product-item .group-btn-control .inner .add_to_cart{
+    color: #181818;
+    font-size: 14px;
+    padding: 2px 22px;
+}
+.product-item .group-btn-control .inner .button{
+    border-color: #40351e;
+}
+.deal-week{
+    background-image: url("../images/bg-deal-2.jpg");
+}
+.deal-week .deal-week-content{
+    left: 22%;
+    right:auto;
+}
+.deal-week .deal-week-content .des{
+    color: #999591;
+}
+.deal-week .deal-week-content .title{
+    color: #eeeae2;
+}
+.deal-week .btn-shop-now{
+    background: transparent;
+    border:1px solid #fac45180;
+}
+.deal-week .kt-countdown .number,
+.deal-week .kt-countdown .box-count .text{
+    color: #fff;
+}
+.deal-week .kt-countdown .number,
+.btn-slider{
+    border-color: #fac45130;
+}
+.price{
+    color: #eeeae2;
+}
+.box-html.style2{
+    background: #111111;
+}
+.box-html.style2 .box-html-content .info .h3-text{
+    color: #eeeae2;
+}
+@media (max-width: 1024px) {
+    .product-item,
+    .product-item:hover{
+        border:1px solid #4e453a!important;
+    }
+    .product-item:hover .group-btn-control{
+        border:1px solid transparent!important;
+    }
+}
+
+@media (max-width: 991px) {
+    .deal-week .deal-week-content {
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+}
+/*footer-black-version*/
+.footer-style-1{
+    background: #181818;
+}
+.menu-footer .title-footer{
+    color: #eeeae2;
+}
+.footer-infomation:after{
+    background: #ebebeb;
+    opacity: 0.1;
+}
+.footer-infomation p{
+    color: #999591;
+}
+.social-footer .social-text,
+.social-footer li a{
+    color: #eeeae2;
+}
+.social-footer li a{
+    border-color: #e1e1e121;
+    color: #eeeae2;
+}
+.social-footer li a:hover{
+    color: #1a1917;
+}
+.menu-footer li a{
+    color: #999591;
+}
+.footer-style-1 .footer-content{
+    background: #111111;
+}
+.footer .newsletter-form .label-b{
+    font-weight: 500;
+}
+.footer .newsletter-content .submit-button{
+    font-weight: 500;
+    color: #181818;
+    letter-spacing: 1px;
+}
+.footer .copyright{
+    color: #999591;
+}

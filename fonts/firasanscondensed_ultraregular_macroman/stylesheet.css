@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'fira_sans_condensedultra';
+    src: url('FiraSansCondensed-Ultra-webfont.eot');
+    src: url('FiraSansCondensed-Ultra-webfont.eot?#iefix') format('embedded-opentype'),
+         url('FiraSansCondensed-Ultra-webfont.woff2') format('woff2'),
+         url('FiraSansCondensed-Ultra-webfont.woff') format('woff'),
+         url('FiraSansCondensed-Ultra-webfont.ttf') format('truetype'),
+         url('FiraSansCondensed-Ultra-webfont.svg#fira_sans_condensedultra') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

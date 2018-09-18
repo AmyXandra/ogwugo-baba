@@ -1,0 +1,296 @@
+/********Main-color********/
+.box-slider.opt-5 .btn-slider,
+.tab-head.style3 .box-tab li.active a,
+.tab-head.style3 .box-tab li a:hover,
+.product-item .group-btn-control .inner .button,
+.price,
+.footer .copyright a,
+.menu-footer li a:hover,
+.nav-links .next:hover,
+.blog-homepage .blog-item .blog-info .post-title a:hover,
+.blog-homepage .blog-item .read-more,
+.blog-items .blog-item .post-title a:hover,
+.blog-item .post-categories,
+.social-share-blog a:hover,
+.widget li a:hover,
+.widget-latest-post .info .product-title,
+.widget-latest-post .info .price ins,
+.list-widget-items .show-more,
+.menu-footer li a:hover,
+.footer .copyright a,
+.product-categories .content .title a:hover,
+.product-categories .title-categories:hover,
+.product-categories.style2 .content .items:hover,
+.product-categories.style2 .categori-link,
+.product-item .cat-list:hover,
+.product-item .group-btn-control .inner .button,
+.availability-title .count-title,
+.product-list-item .add_to_cart,
+.product-single-button .add_to_cart,
+.product-list-item .wishlist:hover,
+.product-single-info .product-title,
+.product-single-info .product-meta .categories a,
+.product-single-info .product-meta .tags-detail a,
+.product-single-info .share-detail a:hover,
+.quantity .buttons_added .sign:hover,
+.method-shiping .items i,
+.content-sidebar .product-single .product-single-button .product-title,
+.product-single .product-single-button .view-more:hover,
+.banner-content .banner-link,
+.commingsoon-content .title,
+.commingsoon-content .kt-countdown .number,
+.about-choose .arrow-items:after,
+.about-choose .show-sub .arrow-items:after,
+.product-cart .product-name a:hover,
+.product-cart .product-remove .remove:not(.none):hover,
+.order-form .message-return a:hover,
+.order-form .arrow-items:hover,
+.header-top .header-sale span,
+.header-top .header-contact span,
+.main-menu>li>a:hover,
+.register:hover,
+.vertical-menu-content li a:hover,
+.vertical-menu-content li a:hover i,
+.header .transport:hover,
+.header .socials li a:hover,
+.mini-cart-content .remove:hover,
+.mini-cart-content .product-name a:hover,
+.mini-cart-content .subtotal,
+.main-menu .megamenu li a:hover,
+.box-slider .m-text,
+.btn-slider,
+.product-deal .owl-nav .owl-prev:hover i:before,
+.product-deal .owl-nav .owl-prev:hover i:after,
+.product-deal .owl-nav .owl-next:hover i:before,
+.product-deal .owl-nav .owl-next:hover i:after,
+.kt-panel > ul > li > a:hover, .kt-panel .megamenu ul > li > a:hover,
+.kt-panels-actions-wrap .kt-close-btn:hover, .kt-panels-actions-wrap .kt-prev-panel:hover,
+.header.style3 .header-nav .socials a:hover,
+.product-action a,
+.block-newletter-popup .show-pass:hover,
+.block-newletter-popup .button-submit,
+.modal-content .close:hover,
+.header .transport:hover span,
+.quick-view:hover,
+.e-zoom:hover{
+    color: #e23e1d;
+}
+.nav-style-1 .owl-prev:hover,
+.nav-style-1 .owl-next:hover,
+.owl-dot.active,
+.nav-links .page-numbers.current,
+.nav-links .page-numbers:not(.text):not(.next):hover,
+.product-shop-top.with-border:after,
+.step-by-step li.active,
+.step-by-step li.active:before,
+.step-by-step .items-step.active span:after,
+.blog-item .read-more,
+.tags a:hover,
+.comments-area .reply-link a:hover,
+.comment-form .button-submit,
+.title-head .title-block:after,
+.title-widget:after,
+.tab-head:after,
+.slider-range-price .ui-slider-range,
+.slider-range-price .ui-slider-handle,
+.slider-range-price .ui-slider-handle.ui-slider-handle-right,
+.button-price-slider,
+.inline input:checked ~ .input ,
+.list-widget-items li .inline:hover .input,
+.social-footer li a:hover,
+.footer .newsletter-content .submit-button,
+.product-item .group-btn-control .inner .add_to_cart,
+.availability-min,
+.product-content-review .box-tab li.active a,
+.product-content-review .box-tab li:hover a,
+.commingsoon-content .socials a:hover,
+.page-404-content a:hover,
+.faq-content .box-content .show-sub .arrow-items:before,
+.about-choose .show-sub .arrow-items:before,
+.contact-form .button-submit,
+.btn-check.update,
+.order-form .show-sub .arrow-items:after,
+.button-search,
+.vertical-menu .block-title,
+.header-cart .count,
+.mini-cart-content .actions .btn-checkout,
+.mobile-navigation .icon>span,
+.step-by-step li.active:last-child:after,
+.product-action .cart,
+.product-action a:hover,
+.block-newletter-popup .button-submit:hover{
+    background-color: #e23e1d;
+}
+.box-slider.opt-5 .btn-slider,
+.social-footer li a:hover,
+.step-by-step li.active,
+.step-by-step li.active:before,
+.comments-area .reply-link a:hover,
+.inline input:checked ~ .input ,
+.list-widget-items li .inline:hover .input,
+.social-footer li a:hover,
+.product-item.style2:hover,
+.product-item.style3:hover,
+.product-deal .product-deal-content,
+.product-list-item .add_to_cart,
+.banner-content .banner-link,
+.product-cart .product-remove .remove:not(.none):hover,
+.order-form .show-sub .arrow-items:after,
+.btn-slider,
+.step-by-step li.active:last-child:after,
+.product-action .cart,
+.product-action a:hover,
+.block-newletter-popup .button-submit,
+.product-item .group-btn-control .inner .button:hover,
+blockquote,
+.btn-slider:hover,
+.e-zoom:hover,
+.slider-nav .slick-current img{
+    border-color: #1467c1;
+}
+.step-by-step .items-step.active span:after{
+    border-top-color:#1467c1;
+    border-bottom-color:#1467c1;
+}
+.banner-text.style3 .banner-content{
+    left: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 27px;
+}
+@media (max-width: 1199px) {
+    .box-slider.opt-1 .item-slide{
+        height: 400px;
+    }
+
+}
+@media (max-width: 1024px) {
+    .banner-text.style3,
+    .banner-text.style3:first-child{
+        width: 32%;
+        margin: 0 4px 10px 4px;
+    }
+    .product-dt{
+        width:49.8%;
+        float:left;
+    }
+}
+@media (max-width: 991px) {
+    .banner-text.style3, .banner-text.style3:first-child{
+        margin: 0 3px 10px 3px;
+    }
+}
+@media (max-width: 767px) {
+    .banner-text.style3,
+    .banner-text.style3:first-child{
+        width: 48%;
+        margin: 0 3px 10px 3px;
+    }
+    .banner-text.style3 .banner-content{
+        left: 50px;
+    }
+   
+}
+@media (max-width: 640px){
+    .banner-text.style3 .banner-content{
+        left: 30px;
+    }
+}
+@media (max-width: 480px) {
+    .banner-text.style3,
+    .banner-text.style3:first-child{
+        width: 100%;
+        margin:10px 0;
+    }
+    .banner-text.style3 .banner-content{
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 360px) {
+    .banner-text.style3 .banner-content{
+        left: 30px;
+        right: auto;
+    }
+}
+.category-banner{
+    padding: 15px;
+    background: #740514;
+    opacity:0.5;
+}
+.category-banner h3{
+    padding:60px;
+    color:#ffffff;
+    font-size: 32px;
+    font-weight: 500;
+}
+.supply-dtl{
+    padding: 8px;
+    padding-left:12px;
+    background-color: #eaeaea;
+}
+.supply-dtl h5{
+    font-weight: 400;
+    font-size: 13px;
+}
+.product-single-button h4{
+    padding: 4px;
+    font-size: 12px;
+    padding-left: 12px;
+    font-weight: 400;
+    margin: 10px 0;
+    background: #eaeaea;
+}
+.product-single-button .add_to_cart{
+    background-color:#e23e1d;
+    border:1px solid #e23e1d;
+    color:#ffffff !important;
+}
+.product-single-button .add_to_cart:hover{
+    background-color: #e31b23;
+}
+.product-single-button .add_to_compare{
+    border:1px solid #e23e1d;
+    color:#e23e1d;
+    background-color: #f1c9c17a;
+}
+.product-single-button .add_to_compare:hover{
+    border:1px solid #e23e1d;
+    color:#ffffff;
+    background-color: #e31b23;
+}
+.price-qty{
+    font-weight: 400;
+    color: #4c4c4c;
+    border-left: 2px solid currentColor;
+    padding-left: 5px;
+    opacity: 0.8;
+}
+@media screen and (max-width:480px){
+    .col-content, .col-sidebar{
+        padding:0 !important;
+    }
+    .product-dt{
+        width:100% !important;
+    }
+}
+.index-wrapper{
+    background:white;
+    width: 98%; 
+    padding-top:30px;
+    padding:0 5px;
+}
+.index-pg-wrapper{
+    background:white;
+    width: 98%; 
+    padding-top:30px;
+    padding:0 5px;
+}
+@media screen and (min-width:1180px){
+    .product-dt{
+        width:33.2%;
+        float:left;
+    }
+}
+ 

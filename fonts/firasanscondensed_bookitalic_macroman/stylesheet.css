@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'fira_sans_condensedBkIt';
+    src: url('FiraSansCondensed-BookItalic-webfont.eot');
+    src: url('FiraSansCondensed-BookItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('FiraSansCondensed-BookItalic-webfont.woff2') format('woff2'),
+         url('FiraSansCondensed-BookItalic-webfont.woff') format('woff'),
+         url('FiraSansCondensed-BookItalic-webfont.ttf') format('truetype'),
+         url('FiraSansCondensed-BookItalic-webfont.svg#fira_sans_condensedBkIt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

@@ -1,0 +1,42 @@
+
+
+@font-face {
+    font-family: 'fira_sans_condensedregular';
+    src: url('FiraSansCondensed-Regular-webfont.eot');
+    src: url('FiraSansCondensed-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('FiraSansCondensed-Regular-webfont.woff2') format('woff2'),
+         url('FiraSansCondensed-Regular-webfont.woff') format('woff'),
+         url('FiraSansCondensed-Regular-webfont.ttf') format('truetype'),
+         url('FiraSansCondensed-Regular-webfont.svg#fira_sans_condensedregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'fira_sans_light';
+    src: url('../fonts/FiraSansCondensed-Light.woff');
+    src: url('FiraSansCondensed-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('FiraSansCondensed-Light-webfont.woff2') format('woff2'),
+         url('../fonts/FiraSansCondensed-Light.woff') format('woff'),
+         url('FiraSansCondensed-Light-webfont.ttf') format('truetype'),
+         url('FiraSansCondensed-Light-webfont.svg#fira_sans_condensedlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'fira_sans_regular';
+    src: url('../fonts/FiraSansCondensed-Regular.woff');
+    src: url('FiraSansCondensed-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('FiraSansCondensed-Regular-webfont.woff2') format('woff2'),
+         url('../fonts/FiraSansCondensed-Regular.woff') format('woff'),
+         url('FiraSansCondensed-Regular-webfont.ttf') format('truetype'),
+         url('FiraSansCondensed-Regular-webfont.svg#fira_sans_condensedregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
