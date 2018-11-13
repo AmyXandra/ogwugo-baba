@@ -28,17 +28,17 @@ include('header.php');
 ?>
 <div class="category-banner">
     <div class="row">
-    <div class="col-md-4">
-        <h3>Leather Bags</h3>
+        <div class="col-md-4">
+            <h3>Leather Bags</h3>
+        </div>
+        <div class="col-md-8" style="">
+            <img src="images/bag1.png">
+            <img src="images/bag3.png">
+            <img src="images/bag1.png">
+            <img src="images/bag3.png">
+            <img src="images/bag1.png">
+        </div>
     </div>
-    <div class="col-md-8" style="">
-        <img src="images/bag1.png">
-        <img src="images/bag3.png">
-        <img src="images/bag1.png">
-        <img src="images/bag3.png">
-        <img src="images/bag1.png">
-    </div>
-</div>
 </div>
 <div class="main-content">
     <div class="site-content-inner">
@@ -111,669 +111,316 @@ include('header.php');
                             </div>
                             </div> -->
                         </div>
-                        
-                        <div class="products auto-clear equal-container product-grid">
-                            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-bg-15">
-                                <div class="product-item">
-                                    
-                                    <div class="product-media">
-                                        <figure>
-                                            <a href="#">
-                                                <img alt="img" src="images/fab-001.jpg">
-                                            </a>
-                                        </figure>
-                                        <a href="#" class="quick-view">quick view</a>
-                                    </div>
-                                    <div class="product-top equal-elem">
-                                       <h3 class="product-name"><a href="#">Samsung CF591 Series Curved 27-Inch FHD Monitor</a></h3>
-                                    </div>
-                                    <div class="product-info">
-                                        <div class="product-content">
-                                            <span class="price">$495.00</span>
-                                            <div class="star-rating">
-                                                <a href="#"><i class="fa fa-star-o"></i></a>
-                                                <a href="#"><i class="fa fa-star-o"></i></a>
-                                                <a href="#"><i class="fa fa-star-o"></i></a>
-                                                <a href="#"><i class="fa fa-star-o"></i></a>
-                                                <a href="#"><i class="fa fa-star-o"></i></a>
-                                                <span>(0)</span>
-                                            </div>
-                                        </div>
-                                        <div class="group-btn-control">
-                                            <div class="inner">
-                                                <a href="#" class="compare button"><span class="arrow_left-right_alt"></span></a>
-                                                <a href="#" class="add_to_cart">Add to Cart</a>
-                                                <a href="#" class="button add_to_wishlist"><span class="icon_heart_alt"></span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-bg-15">
-                                <div class="product-item">
-                                    
-                                    <div class="product-media">
-                                        <figure>
-                                            <a href="#">
-                                                <img alt="img" src="images/fab-006.jpg">
-                                            </a>
-                                        </figure>
-                                        <a href="#" class="quick-view">quick view</a>
-                                    </div>
-                                    <div class="product-top equal-elem">
-                                        <h3 class="product-name"><a href="#">Samsung CF591 Series Curved 27-Inch FHD Monitor</a></h3>
-                                    </div>
-                                    <div class="product-info">
-                                        <div class="product-content">
-                                            <span class="price">$495.00</span>
-                                            <div class="star-rating">
-                                                <a href="#"><i class="fa fa-star-o"></i></a>
-                                                <a href="#"><i class="fa fa-star-o"></i></a>
-                                                <a href="#"><i class="fa fa-star-o"></i></a>
-                                                <a href="#"><i class="fa fa-star-o"></i></a>
-                                                <a href="#"><i class="fa fa-star-o"></i></a>
-                                                <span>(0)</span>
-                                            </div>
-                                        </div>
-                                        <div class="group-btn-control">
-                                            <div class="inner">
-                                                <a href="#" class="compare button"><span class="arrow_left-right_alt"></span></a>
-                                                <a href="#" class="add_to_cart">Add to Cart</a>
-                                                <a href="#" class="button add_to_wishlist"><span class="icon_heart_alt"></span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-bg-15">
-                                <div class="product-item">
-                                    
-                                    <div class="product-media">
-                                        <figure>
-                                            <a href="#">
-                                                <img alt="img" src="images/fab-002.jpg">
-                                            </a>
-                                        </figure>
-                                        <a href="#" class="quick-view">quick view</a>
-                                    </div>
-                                    <div class="product-top equal-elem">
-                                        <h3 class="product-name"><a href="#">Samsung CF591 Series Curved 27-Inch FHD Monitor</a></h3>
-                                    </div>
-                                    <div class="product-info">
-                                        <div class="product-content">
-                                            <div class="price">
-                                                <ins>$295.00</ins>
-                                                <del>$120.00</del>
-                                            </div>
-                                        </div>
-                                        <div class="group-btn-control">
-                                            <div class="inner">
-                                                <a href="#" class="compare button"><span class="arrow_left-right_alt"></span></a>
-                                                <a href="#" class="add_to_cart">Add to Cart</a>
-                                                <a href="#" class="button add_to_wishlist"><span class="icon_heart_alt"></span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-bg-15">
-                                <div class="product-item">
-                                    
-                                    <div class="product-media">
-                                        <figure>
-                                            <a href="#">
-                                                <img alt="img" src="images/fab-007.jpg">
-                                            </a>
-                                        </figure>
-                                        <a href="#" class="quick-view">quick view</a>
-                                    </div>
-                                    <div class="product-top equal-elem">
-                                        <h3 class="product-name"><a href="#">Samsung CF591 Series Curved 27-Inch FHD Monitor</a></h3>
-                                    </div>
-                                    <div class="product-info">
-                                        <div class="product-content">
-                                            <div class="price">
-                                                <ins>$295.00</ins>
-                                                <del>$120.00</del>
-                                            </div>
-                                        </div>
-                                        <div class="group-btn-control">
-                                            <div class="inner">
-                                                <a href="#" class="compare button"><span class="arrow_left-right_alt"></span></a>
-                                                <a href="#" class="add_to_cart">Add to Cart</a>
-                                                <a href="#" class="button add_to_wishlist"><span class="icon_heart_alt"></span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
 
-                            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-bg-15">
-                                <div class="product-item">
+                        <div class="tab-container">
+                            <div id="tab-1c" class="tab-panel active">
+                                <div class="nav-style-1" data-nav="false" data-autoplay="false" data-dots="true" data-loop="true" data-margin="30" data-responsive='{"0":{"items":1},"500":{"items":2},"640":{"items":2},"768":{"items":2},"992":{"items":2},"1199":{"items":3},"1366":{"items":4},"1620":{"items":6}}'>
+                                    <div class="product-item" id="product-item2">
+                                        
+                                        <div class="product-media">
+                                            <figure>
+                                                <a href="single-product2.php">
+                                                    <img alt="img" src="images/fab-003.jpg">
+                                                </a>
+                                            </figure>
+                                            <a href="single-product2.php" class="quick-view">quick view</a>
+                                        </div>
+                                        
+                                        <div class="product-info">
+                                            <div class="product-top equal-elem">
+                                                <h3 class="product-name"><a href="#">Pryma Headphones, Rose Gold & Grey</a></h3>
+                                            </div>
+                                            <div class="product-content">
+                                                <span class="price">$40.00<span class="price-gray">/ piece</span></span>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                    <div class="product-item" id="product-item2">
+                                        
+                                        <div class="product-media">
+                                            <figure>
+                                                <a href="single-product2.php">
+                                                    <img alt="img" src="images/fab-007.jpg">
+                                                </a>
+                                            </figure>
+                                            <a href="single-product2.php" class="quick-view">quick view</a>
+                                        </div>
+                                        
+                                        <div class="product-info">
+                                            <div class="product-top equal-elem">
+                                                <h3 class="product-name"><a href="#">Pryma Headphones, Rose Gold & Grey</a></h3>
+                                            </div>
+                                            <div class="product-content">
+                                                <span class="price">$40.00<span class="price-gray">/ piece</span></span>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+
+                                    <div class="product-item" id="product-item2">
+                                        <div class="product-media">
+                                            <figure>
+                                                <a href="single-product2.php">
+                                                    <img alt="img" src="images/fab-002.jpg">
+                                                </a>
+                                            </figure>
+                                            <a href="single-product2.php" class="quick-view">quick view</a>
+                                        </div>
+                                        
+                                        <div class="product-info">
+                                            <div class="product-top equal-elem">
+                                                <h3 class="product-name"><a href="#">Pryma Headphones, Rose Gold & Grey</a></h3>
+                                            </div>
+                                            <div class="product-content">
+                                                <span class="price">$40.00<span class="price-gray">/ piece</span></span>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="product-item" id="product-item2">
+                                            
+                                        <div class="product-media">
+                                            <figure>
+                                                <a href="single-product2.php">
+                                                    <img alt="img" src="images/fab-003.jpg">
+                                                </a>
+                                            </figure>
+                                            <a href="single-product2.php" class="quick-view">quick view</a>
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="product-top equal-elem">
+                                                <h3 class="product-name"><a href="#">Pryma Headphones, Rose Gold & Grey</a></h3>
+                                            </div>
+                                            <div class="product-content">
+                                                <span class="price">$40.00<span class="price-gray">/ piece</span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product-item" id="product-item2">
+                                        <div class="product-media">
+                                            <figure>
+                                                <a href="single-product2.php">
+                                                    <img alt="img" src="images/fab-002.jpg">
+                                                </a>
+                                            </figure>
+                                            <a href="single-product2.php" class="quick-view">quick view</a>
+                                        </div>
+                                        
+                                        <div class="product-info">
+                                            <div class="product-top equal-elem">
+                                                <h3 class="product-name"><a href="#">Pryma Headphones, Rose Gold & Grey</a></h3>
+                                            </div>
+                                            <div class="product-content">
+                                                <span class="price">$40.00<span class="price-gray">/ piece</span></span>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="product-item" id="product-item2">
+                                        
+                                        <div class="product-media">
+                                            <figure>
+                                                <a href="single-product2.php">
+                                                    <img alt="img" src="images/fab-004.jpg">
+                                                </a>
+                                            </figure>
+                                            <a href="single-product2.php" class="quick-view">quick view</a>
+                                        </div>
+                                        
+                                        <div class="product-info">
+                                            <div class="product-top equal-elem">
+                                                <h3 class="product-name"><a href="#">Pryma Headphones, Rose Gold & Grey</a></h3>
+                                            </div>
+                                            <div class="product-content">
+                                                <span class="price">$40.00<span class="price-gray">/ piece</span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product-item" id="product-item2">
+                                        <div class="product-media">
+                                            <figure>
+                                                <a href="single-product2.php">
+                                                    <img alt="img" src="images/fab-002.jpg">
+                                                </a>
+                                            </figure>
+                                            <a href="single-product2.php" class="quick-view">quick view</a>
+                                        </div>
+                                        
+                                        <div class="product-info">
+                                            <div class="product-top equal-elem">
+                                                <h3 class="product-name"><a href="#">Pryma Headphones, Rose Gold & Grey</a></h3>
+                                            </div>
+                                            <div class="product-content">
+                                                <span class="price">$40.00<span class="price-gray">/ piece</span></span>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="product-item" id="product-item2">
+                                        <div class="product-media">
+                                            <figure>
+                                                <a href="single-product2.php">
+                                                    <img alt="img" src="images/fab-002.jpg">
+                                                </a>
+                                            </figure>
+                                            <a href="single-product2.php" class="quick-view">quick view</a>
+                                        </div>
+                                        
+                                        <div class="product-info">
+                                            <div class="product-top equal-elem">
+                                                <h3 class="product-name"><a href="#">Pryma Headphones, Rose Gold & Grey</a></h3>
+                                            </div>
+                                            <div class="product-content">
+                                                <span class="price">$40.00<span class="price-gray">/ piece</span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product-item" id="product-item2">
+                                        <div class="product-media">
+                                            <figure>
+                                                <a href="single-product2.php">
+                                                    <img alt="img" src="images/fab-002.jpg">
+                                                </a>
+                                            </figure>
+                                            <a href="single-product2.php" class="quick-view">quick view</a>
+                                        </div>
+                                        
+                                        <div class="product-info">
+                                            <div class="product-top equal-elem">
+                                                <h3 class="product-name"><a href="#">Pryma Headphones, Rose Gold & Grey</a></h3>
+                                            </div>
+                                            <div class="product-content">
+                                                <span class="price">$40.00<span class="price-gray">/ piece</span></span>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="product-item" id="product-item2">
+                                        <div class="product-media">
+                                            <figure>
+                                                <a href="single-product2.php">
+                                                    <img alt="img" src="images/fab-002.jpg">
+                                                </a>
+                                            </figure>
+                                            <a href="single-product2.php" class="quick-view">quick view</a>
+                                        </div>
+                                        
+                                        <div class="product-info">
+                                            <div class="product-top equal-elem">
+                                                <h3 class="product-name"><a href="#">Pryma Headphones, Rose Gold & Grey</a></h3>
+                                            </div>
+                                            <div class="product-content">
+                                                <span class="price">$40.00<span class="price-gray">/ piece</span></span>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
                                     
-                                    <div class="product-media">
-                                        <figure>
-                                            <a href="#">
-                                                <img alt="img" src="images/fab-003.jpg">
-                                            </a>
-                                        </figure>
-                                        <a href="#" class="quick-view">quick view</a>
-                                    </div>
-                                    <div class="product-top equal-elem">
-                                        <h3 class="product-name"><a href="#">Samsung CF591 Series Curved 27-Inch FHD Monitor</a></h3>
-                                    </div>
-                                    <div class="product-info">
-                                        <div class="product-content">
-                                            <div class="price">
-                                                <ins>$295.00</ins>
-                                                <del>$120.00</del>
-                                            </div>
-                                            <div class="star-rating">
-                                                <a href="#"><i class="fa fa-star-o"></i></a>
-                                                <a href="#"><i class="fa fa-star-o"></i></a>
-                                                <a href="#"><i class="fa fa-star-o"></i></a>
-                                                <a href="#"><i class="fa fa-star-o"></i></a>
-                                                <a href="#"><i class="fa fa-star-o"></i></a>
-                                                <span>(0)</span>
-                                            </div>
+                                    <div class="product-item" id="product-item2">
+                                        
+                                        <div class="product-media">
+                                            <figure>
+                                                <a href="single-product2.php">
+                                                    <img alt="img" src="images/fab-005.jpg">
+                                                </a>
+                                            </figure>
+                                            <a href="single-product2.php" class="quick-view">quick view</a>
                                         </div>
-                                        <div class="group-btn-control">
-                                            <div class="inner">
-                                                <a href="#" class="compare button"><span class="arrow_left-right_alt"></span></a>
-                                                <a href="#" class="add_to_cart">Add to Cart</a>
-                                                <a href="#" class="button add_to_wishlist"><span class="icon_heart_alt"></span></a>
+                                        
+                                        <div class="product-info">
+                                            <div class="product-top equal-elem">
+                                                <h3 class="product-name"><a href="#">Pryma Headphones, Rose Gold & Grey</a></h3>
+                                            </div>
+                                            <div class="product-content">
+                                                <span class="price">$40.00<span class="price-gray">/ piece</span></span>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-bg-15">
-                                <div class="product-item">
-                                    
-                                    <div class="product-media">
-                                        <figure>
-                                            <a href="#">
-                                                <img alt="img" src="images/fab-008.jpg">
-                                            </a>
-                                        </figure>
-                                        <a href="#" class="quick-view">quick view</a>
-                                    </div>
-                                    <div class="product-top equal-elem">
-                                        <h3 class="product-name"><a href="#">Samsung CF591 Series Curved 27-Inch FHD Monitor</a></h3>
-                                    </div>
-                                    <div class="product-info">
-                                        <div class="product-content">
-                                            <span class="price">$495.00</span>
-                                            <div class="star-rating">
-                                                <a href="#"><i class="fa fa-star-o"></i></a>
-                                                <a href="#"><i class="fa fa-star-o"></i></a>
-                                                <a href="#"><i class="fa fa-star-o"></i></a>
-                                                <a href="#"><i class="fa fa-star-o"></i></a>
-                                                <a href="#"><i class="fa fa-star-o"></i></a>
-                                                <span>(0)</span>
-                                            </div>
+                                    <div class="product-item" id="product-item2">
+                                            
+                                        <div class="product-media">
+                                            <figure>
+                                                <a href="single-product2.php">
+                                                    <img alt="img" src="images/fab-006.jpg">
+                                                </a>
+                                            </figure>
+                                            <a href="single-product2.php" class="quick-view">quick view</a>
                                         </div>
-                                        <div class="group-btn-control">
-                                            <div class="inner">
-                                                <a href="#" class="compare button"><span class="arrow_left-right_alt"></span></a>
-                                                <a href="#" class="add_to_cart">Add to Cart</a>
-                                                <a href="#" class="button add_to_wishlist"><span class="icon_heart_alt"></span></a>
+                                        
+                                        <div class="product-info">
+                                            <div class="product-top equal-elem">
+                                                <h3 class="product-name"><a href="#">Pryma Headphones, Rose Gold & Grey</a></h3>
+                                            </div> 
+                                            <div class="product-content">
+                                                <span class="price">$40.00<span class="price-gray">/ piece</span></span>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-bg-15">
-                                <div class="product-item">
-                                    
-                                    <div class="product-media">
-                                        <figure>
-                                            <a href="#">
-                                                <img alt="img" src="images/fab-004.jpg">
-                                            </a>
-                                        </figure>
-                                        <a href="#" class="quick-view">quick view</a>
-                                    </div>
-                                    <div class="product-top equal-elem">
-                                        <h3 class="product-name"><a href="#">Samsung CF591 Series Curved 27-Inch FHD Monitor</a></h3>
-                                    </div>
-                                    <div class="product-info">
-                                        <div class="product-content">
-                                            <span class="price">$495.00</span>
-                                            <div class="star-rating">
-                                                <a href="#"><i class="fa fa-star-o"></i></a>
-                                                <a href="#"><i class="fa fa-star-o"></i></a>
-                                                <a href="#"><i class="fa fa-star-o"></i></a>
-                                                <a href="#"><i class="fa fa-star-o"></i></a>
-                                                <a href="#"><i class="fa fa-star-o"></i></a>
-                                                <span>(0)</span>
-                                            </div>
+                                    <div class="product-item" id="product-item2">
+                                        <div class="product-media">
+                                            <figure>
+                                                <a href="single-product2.php">
+                                                    <img alt="img" src="images/fab-002.jpg">
+                                                </a>
+                                            </figure>
+                                            <a href="single-product2.php" class="quick-view">quick view</a>
                                         </div>
-                                        <div class="group-btn-control">
-                                            <div class="inner">
-                                                <a href="#" class="compare button"><span class="arrow_left-right_alt"></span></a>
-                                                <a href="#" class="add_to_cart">Add to Cart</a>
-                                                <a href="#" class="button add_to_wishlist"><span class="icon_heart_alt"></span></a>
+                                        
+                                        <div class="product-info">
+                                            <div class="product-top equal-elem">
+                                                <h3 class="product-name"><a href="#">Pryma Headphones, Rose Gold & Grey</a></h3>
                                             </div>
+                                            <div class="product-content">
+                                                <span class="price">$40.00<span class="price-gray">/ piece</span></span>
+                                            </div>
+                                            
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-bg-15">
-                                <div class="product-item">
-                                    
-                                    <div class="product-media">
-                                        <figure>
-                                            <a href="#">
-                                                <img alt="img" src="images/fab-008.jpg">
-                                            </a>
-                                        </figure>
-                                        <a href="#" class="quick-view">quick view</a>
-                                    </div>
-                                    <div class="product-top equal-elem">
-                                        <h3 class="product-name"><a href="#">Samsung CF591 Series Curved 27-Inch FHD Monitor</a></h3>
-                                    </div>
-                                    <div class="product-info">
-                                        <div class="product-content">
-                                            <div class="price">
-                                                <ins>$295.00</ins>
-                                                <del>$120.00</del>
-                                            </div>
+                                    <div class="product-item" id="product-item2">
+                                        
+                                        <div class="product-media">
+                                            <figure>
+                                                <a href="single-product2.php">
+                                                    <img alt="img" src="images/fab-007.jpg">
+                                                </a>
+                                            </figure>
+                                            <a href="single-product2.php" class="quick-view">quick view</a>
                                         </div>
-                                        <div class="group-btn-control">
-                                            <div class="inner">
-                                                <a href="#" class="compare button"><span class="arrow_left-right_alt"></span></a>
-                                                <a href="#" class="add_to_cart">Add to Cart</a>
-                                                <a href="#" class="button add_to_wishlist"><span class="icon_heart_alt"></span></a>
+                                        
+                                        <div class="product-info">
+                                            <div class="product-top equal-elem">
+                                                <h3 class="product-name"><a href="#">Pryma Headphones, Rose Gold & Grey</a></h3>
+                                            </div>
+                                            <div class="product-content">
+                                                <span class="price">$40.00<span class="price-gray">/ piece</span></span>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-bg-15">
-                                <div class="product-item">
-                                    
-                                    <div class="product-media">
-                                        <figure>
-                                            <a href="#">
-                                                <img alt="img" src="images/fab-008.jpg">
-                                            </a>
-                                        </figure>
-                                        <a href="#" class="quick-view">quick view</a>
-                                    </div>
-                                    <div class="product-top equal-elem">
-                                        <h3 class="product-name"><a href="#">Samsung CF591 Series Curved 27-Inch FHD Monitor</a></h3>
-                                    </div>
-                                    <div class="product-info">
-                                        <div class="product-content">
-                                            <div class="price">
-                                                <ins>$295.00</ins>
-                                                <del>$120.00</del>
-                                            </div>
+                                    <div class="product-item" id="product-item2">
+                                        
+                                        <div class="product-media">
+                                            <figure>
+                                                <a href="#">
+                                                    <img alt="img" src="images/fab-005.jpg">
+                                                </a>
+                                            </figure>
+                                            <a href="#" class="quick-view">quick view</a>
                                         </div>
-                                        <div class="group-btn-control">
-                                            <div class="inner">
-                                                <a href="#" class="compare button"><span class="arrow_left-right_alt"></span></a>
-                                                <a href="#" class="add_to_cart">Add to Cart</a>
-                                                <a href="#" class="button add_to_wishlist"><span class="icon_heart_alt"></span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-bg-15">
-                                <div class="product-item">
-                                    
-                                    <div class="product-media">
-                                        <figure>
-                                            <a href="#">
-                                                <img alt="img" src="images/fab-005.jpg">
-                                            </a>
-                                        </figure>
-                                        <a href="#" class="quick-view">quick view</a>
-                                    </div>
-                                    <div class="product-top equal-elem">
-                                        <h3 class="product-name"><a href="#">Samsung CF591 Series Curved 27-Inch FHD Monitor</a></h3>
-                                    </div>
-                                    <div class="product-info">
-                                        <div class="product-content">
-                                            <span class="price">$495.00</span>
-                                        </div>
-                                        <div class="group-btn-control">
-                                            <div class="inner">
-                                                <a href="#" class="compare button"><span class="arrow_left-right_alt"></span></a>
-                                                <a href="#" class="add_to_cart">Add to Cart</a>
-                                                <a href="#" class="button add_to_wishlist"><span class="icon_heart_alt"></span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-bg-15">
-                                <div class="product-item">
-                                    
-                                    <div class="product-media">
-                                        <figure>
-                                            <a href="#">
-                                                <img alt="img" src="images/fab-010.jpg">
-                                            </a>
-                                        </figure>
-                                        <a href="#" class="quick-view">quick view</a>
-                                    </div>
-                                    <div class="product-top equal-elem">
-                                        <h3 class="product-name"><a href="#">Samsung CF591 Series Curved 27-Inch FHD Monitor</a></h3>
-                                    </div>
-                                    <div class="product-info">
-                                        <div class="product-content">
-                                            <span class="price">$495.00</span>
-                                            <div class="star-rating">
-                                                <a href="#"><i class="fa fa-star-o"></i></a>
-                                                <a href="#"><i class="fa fa-star-o"></i></a>
-                                                <a href="#"><i class="fa fa-star-o"></i></a>
-                                                <a href="#"><i class="fa fa-star-o"></i></a>
-                                                <a href="#"><i class="fa fa-star-o"></i></a>
-                                                <span>(0)</span>
-                                            </div>
-                                        </div>
-                                        <div class="group-btn-control">
-                                            <div class="inner">
-                                                <a href="#" class="compare button"><span class="arrow_left-right_alt"></span></a>
-                                                <a href="#" class="add_to_cart">Add to Cart</a>
-                                                <a href="#" class="button add_to_wishlist"><span class="icon_heart_alt"></span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-bg-15">
-                                <div class="product-item">
-                                    
-                                    <div class="product-media">
-                                        <figure>
-                                            <a href="#">
-                                                <img alt="img" src="images/fab-003.jpg">
-                                            </a>
-                                        </figure>
-                                        <a href="#" class="quick-view">quick view</a>
-                                    </div>
-                                    <div class="product-top equal-elem">
-                                       <h3 class="product-name"><a href="#">Samsung CF591 Series Curved 27-Inch FHD Monitor</a></h3>
-                                    </div>
-                                    <div class="product-info">
-                                        <div class="product-content">
-                                            <span class="price">$495.00</span>
-                                            <div class="star-rating">
-                                                <a href="#"><i class="fa fa-star-o"></i></a>
-                                                <a href="#"><i class="fa fa-star-o"></i></a>
-                                                <a href="#"><i class="fa fa-star-o"></i></a>
-                                                <a href="#"><i class="fa fa-star-o"></i></a>
-                                                <a href="#"><i class="fa fa-star-o"></i></a>
-                                                <span>(0)</span>
-                                            </div>
-                                        </div>
-                                        <div class="group-btn-control">
-                                            <div class="inner">
-                                                <a href="#" class="compare button"><span class="arrow_left-right_alt"></span></a>
-                                                <a href="#" class="add_to_cart">Add to Cart</a>
-                                                <a href="#" class="button add_to_wishlist"><span class="icon_heart_alt"></span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-bg-15">
-                                <div class="product-item">
-                                    
-                                    <div class="product-media">
-                                        <figure>
-                                            <a href="#">
-                                                <img alt="img" src="images/fab-002.jpg">
-                                            </a>
-                                        </figure>
-                                        <a href="#" class="quick-view">quick view</a>
-                                    </div>
-                                    <div class="product-top equal-elem">
-                                        <h3 class="product-name"><a href="#">Samsung CF591 Series Curved 27-Inch FHD Monitor</a></h3>
-                                    </div>
-                                    <div class="product-info">
-                                        <div class="product-content">
-                                            <div class="price">
-                                                <ins>$295.00</ins>
-                                                <del>$120.00</del>
-                                            </div>
-                                        </div>
-                                        <div class="group-btn-control">
-                                            <div class="inner">
-                                                <a href="#" class="compare button"><span class="arrow_left-right_alt"></span></a>
-                                                <a href="#" class="add_to_cart">Add to Cart</a>
-                                                <a href="#" class="button add_to_wishlist"><span class="icon_heart_alt"></span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-bg-15">
-                                <div class="product-item">
-                                    
-                                    <div class="product-media">
-                                        <figure>
-                                            <a href="#">
-                                                <img alt="img" src="images/fab-001.jpg">
-                                            </a>
-                                        </figure>
-                                        <a href="#" class="quick-view">quick view</a>
-                                    </div>
-                                    <div class="product-top equal-elem">
-                                        <h3 class="product-name"><a href="#">Samsung CF591 Series Curved 27-Inch FHD Monitor</a></h3>
-                                    </div>
-                                    <div class="product-info">
-                                        <div class="product-content">
-                                            <div class="price">
-                                                <ins>$295.00</ins>
-                                                <del>$120.00</del>
-                                            </div>
-                                        </div>
-                                        <div class="group-btn-control">
-                                            <div class="inner">
-                                                <a href="#" class="compare button"><span class="arrow_left-right_alt"></span></a>
-                                                <a href="#" class="add_to_cart">Add to Cart</a>
-                                                <a href="#" class="button add_to_wishlist"><span class="icon_heart_alt"></span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-bg-15">
-                                <div class="product-item">
-                                    
-                                    <div class="product-media">
-                                        <figure>
-                                            <a href="#">
-                                                <img alt="img" src="images/fab-004.jpg">
-                                            </a>
-                                        </figure>
-                                        <a href="#" class="quick-view">quick view</a>
-                                    </div>
-                                    <div class="product-top equal-elem">
-                                        <h3 class="product-name"><a href="#">Samsung CF591 Series Curved 27-Inch FHD Monitor</a></h3>
-                                    </div>
-                                    <div class="product-info">
-                                        <div class="product-content">
-                                            <span class="price">$495.00</span>
-                                        </div>
-                                        <div class="group-btn-control">
-                                            <div class="inner">
-                                                <a href="#" class="compare button"><span class="arrow_left-right_alt"></span></a>
-                                                <a href="#" class="add_to_cart">Add to Cart</a>
-                                                <a href="#" class="button add_to_wishlist"><span class="icon_heart_alt"></span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-bg-15">
-                                <div class="product-item">
-                                    
-                                    <div class="product-media">
-                                        <figure>
-                                            <a href="#">
-                                                <img alt="img" src="images/fab-005.jpg">
-                                            </a>
-                                        </figure>
-                                        <a href="#" class="quick-view">quick view</a>
-                                    </div>
-                                    <div class="product-top equal-elem">
-                                        <h3 class="product-name"><a href="#">Samsung CF591 Series Curved 27-Inch FHD Monitor</a></h3>
-                                    </div>
-                                    <div class="product-info">
-                                        <div class="product-content">
-                                            <span class="price">$495.00</span>
-                                            <div class="star-rating">
-                                                <a href="#"><i class="fa fa-star-o"></i></a>
-                                                <a href="#"><i class="fa fa-star-o"></i></a>
-                                                <a href="#"><i class="fa fa-star-o"></i></a>
-                                                <a href="#"><i class="fa fa-star-o"></i></a>
-                                                <a href="#"><i class="fa fa-star-o"></i></a>
-                                                <span>(0)</span>
-                                            </div>
-                                        </div>
-                                        <div class="group-btn-control">
-                                            <div class="inner">
-                                                <a href="#" class="compare button"><span class="arrow_left-right_alt"></span></a>
-                                                <a href="#" class="add_to_cart">Add to Cart</a>
-                                                <a href="#" class="button add_to_wishlist"><span class="icon_heart_alt"></span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-bg-15">
-                                <div class="product-item">
-                                   
-                                    <div class="product-media">
-                                        <figure>
-                                            <a href="#">
-                                                <img alt="img" src="images/fab-006.jpg">
-                                            </a>
-                                        </figure>                                        
-                                        <a href="#" class="quick-view">quick view</a>
-                                    </div> 
-                                    <div class="product-top equal-elem">
-                                        <h3 class="product-name"><a href="#">Samsung CF591 Series Curved 27-Inch FHD Monitor</a></h3>
-                                    </div>
-                                    <div class="product-info">
-                                        <div class="product-content">
-                                            <span class="price">$495.00</span>
-                                            <div class="star-rating">
-                                                <a href="#"><i class="fa fa-star-o"></i></a>
-                                                <a href="#"><i class="fa fa-star-o"></i></a>
-                                                <a href="#"><i class="fa fa-star-o"></i></a>
-                                                <a href="#"><i class="fa fa-star-o"></i></a>
-                                                <a href="#"><i class="fa fa-star-o"></i></a>
-                                                <span>(0)</span>
-                                            </div>
-                                        </div>
-                                        <div class="group-btn-control">
-                                            <div class="inner">
-                                                <a href="#" class="compare button"><span class="arrow_left-right_alt"></span></a>
-                                                <a href="#" class="add_to_cart">Add to Cart</a>
-                                                <a href="#" class="button add_to_wishlist"><span class="icon_heart_alt"></span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-bg-15">
-                                <div class="product-item">
-                                    
-                                    <div class="product-media">
-                                        <figure>
-                                            <a href="#">
-                                                <img alt="img" src="images/fab-007.jpg">
-                                            </a>
-                                        </figure>
-                                        <a href="#" class="quick-view">quick view</a>
-                                    </div>
-                                    <div class="product-top equal-elem">
-                                        <h3 class="product-name"><a href="#">Samsung CF591 Series Curved 27-Inch FHD Monitor</a></h3>
-                                    </div>
-                                    <div class="product-info">
-                                        <div class="product-content">
-                                            <div class="price">
-                                                <ins>$295.00</ins>
-                                                <del>$120.00</del>
-                                            </div>
-                                        </div>
-                                        <div class="group-btn-control">
-                                            <div class="inner">
-                                                <a href="#" class="compare button"><span class="arrow_left-right_alt"></span></a>
-                                                <a href="#" class="add_to_cart">Add to Cart</a>
-                                                <a href="#" class="button add_to_wishlist"><span class="icon_heart_alt"></span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-bg-15">
-                                <div class="product-item">
-                                    
-                                    <div class="product-media">
-                                        <figure>
-                                            <a href="#">
-                                                <img alt="img" src="images/fab-008.jpg">
-                                            </a>
-                                        </figure>
-                                        <a href="#" class="quick-view">quick view</a>
-                                    </div>
-                                    <div class="product-top equal-elem">
-                                        <h3 class="product-name"><a href="#">Samsung CF591 Series Curved 27-Inch FHD Monitor</a></h3>
-                                    </div>
-                                    <div class="product-info">
-                                        <div class="product-content">
-                                            <div class="price">
-                                                <ins>$295.00</ins>
-                                                <del>$120.00</del>
-                                            </div>
-                                        </div>
-                                        <div class="group-btn-control">
-                                            <div class="inner">
-                                                <a href="#" class="compare button"><span class="arrow_left-right_alt"></span></a>
-                                                <a href="#" class="add_to_cart">Add to Cart</a>
-                                                <a href="#" class="button add_to_wishlist"><span class="icon_heart_alt"></span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-bg-15">
-                                <div class="product-item">
-                                    
-                                    <div class="product-media">
-                                        <figure>
-                                            <a href="#">
-                                                <img alt="img" src="images/fab-010.jpg">
-                                            </a>
-                                        </figure>
-                                        <a href="#" class="quick-view">quick view</a>
-                                    </div>
-                                    <div class="product-top equal-elem">
-                                        <h3 class="product-name"><a href="#">Samsung CF591 Series Curved 27-Inch FHD Monitor</a></h3>
-                                    </div>
-                                    <div class="product-info">
-                                        <div class="product-content">
-                                            <span class="price">$495.00</span>
-                                        </div>
-                                        <div class="group-btn-control">
-                                            <div class="inner">
-                                                <a href="#" class="compare button"><span class="arrow_left-right_alt"></span></a>
-                                                <a href="#" class="add_to_cart">Add to Cart</a>
-                                                <a href="#" class="button add_to_wishlist"><span class="icon_heart_alt"></span></a>
-                                            </div>
+                                        
+                                        <div class="product-info">
+                                            <div class="product-top equal-elem">
+                                                <h3 class="product-name"><a href="#">Pryma Headphones, Rose Gold & Grey</a></h3>
+                                            </div> 
+                                            <div class="product-content">
+                                                <span class="price">$40.00<span class="price-gray">/ piece</span></span>
+                                            </div> 
+                                            
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        
                         <nav class="navigation pagination margin-bottom-25" role="navigation">
                             <div class="nav-links">
                                 <span class="page-numbers current">1</span>

@@ -77,6 +77,7 @@
 .e-zoom:hover{
     color: #e23e1d;
 }
+.price-gray{color:grey}
 .nav-style-1 .owl-prev:hover,
 .nav-style-1 .owl-next:hover,
 .owl-dot.active,
@@ -114,12 +115,13 @@
 .order-form .show-sub .arrow-items:after,
 .button-search,
 .vertical-menu .block-title,
-.header-cart .count,
+.header-cart .count, .header-cart .count-inner,
 .mini-cart-content .actions .btn-checkout,
 .mobile-navigation .icon>span,
 .block-newletter-popup .button-submit:hover{
     background-color: #e23e1d;
 }
+.product-content-review{background:white}
 .box-slider.opt-5 .btn-slider,
 .social-footer li a:hover,
 .step-by-step li.active,
@@ -176,7 +178,7 @@ blockquote,
         display:none;
     }
     .owl-carousel .owl-stage-outer{
-        padding-left: 15px !important;
+        padding-left: ;
     }
     .container-wapper{
         padding: 0 !important;
@@ -293,10 +295,10 @@ blockquote,
     display:none;
 }
 .all-ct-grp{
-    max-width: 200px;
+    max-width: 187px;
     display: inline-flex;
     padding: 5px;
-    border: 1px solid #bbbbbb;
+    border: 0.8px solid #cbc9c9;
     margin: 2px;
 }
 .all-ct-img{
@@ -310,38 +312,65 @@ blockquote,
 }
 .all-ct-grp h5{
     display: inline-block;
-    font-size: 15px;
+    font-size: 12px;
     padding: 5px;
     margin: auto 0; 
 }
 .all-ct-sub ul li{
     width: calc(100%/3.1);
     display: inline-block;
-    line-height: 20px;
-    font-size:14px;
+    line-height: 6px;
+    font-size: 12px;
+}
+.all-ct-sub h3{
+    font-size: 16px;
+    margin-bottom: 8px;
+    margin-top: 13px;
 }
 .all-ct-sub{
-    margin:4px 15px;
-    padding: 15px;
-    border: 1px solid #bbbbbb;
+    margin: 12px 10px;
+    padding: 5px 15px;
+    border: 0.8px solid #cbc9c9;
+}
+.all-ct-aside{
+    margin-bottom: 28px;
+}
+.all-ct-aside h3{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+.all-ct-aside ul{
+    list-style: none;
+    padding: 5px 12px;
+    border: 0.8px solid #e0e0e0;
+    width: 210px;
+    font-size: 12px;
 }
 .desc-1{
     background-position: center;
     background-image: url(../images/desc-banner.jpg);
     height: 470px;
-    width: 95%;
     background-size: contain;
+    max-width: 410px;
+    margin: 0 auto;
 }
 .desc-3{
     padding-bottom: 10px;
     margin-top: 110px;
 }
 .desc-2{
-    border-bottom: 1px solid #efecec;
+    border-bottom: 0.8px solid #efecec;
     padding-bottom: 10px;
     margin-top: 35px;
     height: 200px;
     clear: both;
+}
+.desc-2 table{
+    border-color: transparent;
+}
+.desc-2 table tbody tr td{
+    border-color: transparent;
 }
 .desc-2 img{
     display: inline-block;
@@ -353,7 +382,13 @@ blockquote,
     text-align: center;
     width: 195px;
     float: right;
-    margin-right: 185px;;
+    margin-right: 185px;
+}
+.desc-caption-md{
+    display: inline-block;
+    text-align: center;
+    width: 195px;
+    transform: translate(50%, 50%);
 }
 .desc-caption h4{
     font-size: 28px;
@@ -378,6 +413,25 @@ blockquote,
     position: relative;
     letter-spacing: 0.05em;
     background-color: #ce1921;
+}
+.desc-caption-md button{
+    font-size: 14px;
+    color: #fff6f6;
+    font-weight: lighter;
+    border-radius: 25px;
+    padding: 0 18px;
+    height: 27px;
+    display: inline-block;
+    margin: 0 9px 10px 9px;
+    position: relative;
+    letter-spacing: 0.05em;
+    background-color: #ce1921;
+}
+.desc-caption button a:hover{
+    color: #ffffff;
+}
+.desc-caption-md button a:hover{
+    color: #ffffff;
 }
 .desc-1 h4{
     font-size: 35px;
@@ -452,3 +506,53 @@ blockquote,
     margin-top: 120px;
     margin-bottom:120px;
 }
+.image-thumb-list{
+    margin-left: 37px;
+    background: white;
+    padding: 5px 6px;
+    border: 1px solid #f0f0f0;
+}
+.image-thumb-list li{
+    text-align:center; 
+    padding: 2px;
+    width:50px; height:50px;
+    list-style:none; 
+    border:1px solid #f0f0f0;
+    margin-bottom: 10px
+}
+.product-single-thumb{
+    max-width: 400px;
+    max-width: 400px;
+}
+.product-single-thumb img{
+    border:1px solid #f0f0f0;
+}
+.product-dt table tr td, .product-dt-ex table tr td{
+    border:none;
+    padding: 1px;
+    text-align: left;
+    font-size: 13px;
+}
+.product-dt table, .product-dt-ex table{
+    margin-bottom: 2px;
+    border:none;
+}
+.dotted-hr{
+    border: 0;
+    border-top: 1px dotted #a6a6a6;
+    position: relative;
+    top: 20px;
+    margin: 0;
+}
+.wishlist-tabs ul.nav-tabs{
+    border-bottom: none;
+}
+.wishlist-tabs ul.nav-tabs>li>a{
+    border: 1px solid #0000000a;
+    border-radius: 0px 0px 0 0;
+}
+.breadcrumb {
+    padding: 0px;
+    border-radius: unset;
+}
+/******************************form css***************************************/

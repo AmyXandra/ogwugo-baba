@@ -1,20 +1,4 @@
-Skip to content
- 
-Search or jump to…
 
-Pull requests
-Issues
-Marketplace
-Explore
- @AmyXandra Sign out
-0
-0 0 AmyXandra/ogwugo-baba
- Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights  Settings
-ogwugo-baba/header.php
-bd63d5d  29 days ago
-@AmyXandra AmyXandra Creating files for Ogwugo-baba
-     
-259 lines (250 sloc)  16.5 KB
 <header class="header header-full-width opt-1">
     
     <div id="d-header" class="container-wapper">
@@ -23,17 +7,17 @@ bd63d5d  29 days ago
             <div class="box-header-nav">
                 <ul class="main-menu clone-main-menu">
                         <li class="menu-item menu-item-has-children"><a href="index.html" class="kt-item-title" title="Home">Solutions</a>
-                            <ul class="submenu">
+                            <!-- <ul class="submenu">
                                 <li class="menu-item"><a href="index.html">Homepage Multi Market</a></li>
                                 <li class="menu-item"><a href="index2.html">Homepage Tech Full</a></li>
                                 <li class="menu-item"><a href="index3.html">Homepage Tech Style 01</a></li>
                                 <li class="menu-item"><a href="index4.html">Homepage Tech Style 02</a></li>
                                 <li class="menu-item"><a href="index5.html">Homepage Shop</a></li>
                                 <li class="menu-item"><a href="index6.html">Homepage Watch Black</a></li>
-                            </ul>
+                            </ul> -->
                         </li>
                         <li class="menu-item menu-item-has-children"><a href="shop-categories.html" class="kt-item-title" title="Shop">Membership</a>
-                            <div class="submenu megamenu">
+                            <!-- <div class="submenu megamenu">
                                 <div class="row">
                                     <div class="col-sm-4">
                                         <div class="custommenu">
@@ -69,24 +53,24 @@ bd63d5d  29 days ago
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                         </li>
                         <li class="menu-item menu-item-has-children"><a href="index.html" class="kt-item-title" title="PAGES">Help</a>
-                            <ul class="submenu">
+                            <!-- <ul class="submenu">
                                 <li class="menu-item"><a href="about-us.html">About Us</a></li>
                                 <li class="menu-item"><a href="contact.html">Contact us</a></li>
                                 <li class="menu-item"><a href="faq.html">FAQ</a></li>
                                 <li class="menu-item"><a href="404.html">Error 404</a></li>
                                 <li class="menu-item"><a href="comming-soon.html">Coming Soon</a></li>
-                            </ul>
+                            </ul> -->
                         </li>
                         <li class="menu-item menu-item-has-children"><a href="index.html" class="kt-item-title" title="Blog">Community</a>
-                            <ul class="submenu">
+                            <!-- <ul class="submenu">
                                 <li class="menu-item"><a href="blog-list.html">Blog List</a></li>
                                 <li class="menu-item"><a href="blog-grid.html">Blog Grid</a></li>
                                 <li class="menu-item"><a href="blog-full-width.html">Blog Full</a></li>
                                 <li class="menu-item"><a href="blogpost.html">Blog Detail Siderbar</a></li>
-                            </ul>
+                            </ul> -->
                         </li>
                         <!-- <li class="menu-item menu-item-has-children"><a href="index.html" class="kt-item-title" title="SPECIAL OFFER">SPECIAL OFFER</a>
                             <div class="submenu megamenu megamenu2">
@@ -113,19 +97,17 @@ bd63d5d  29 days ago
                 </div>
                 <div class="vertical-menu-content">
                     <ul class="vertical-menu-items">
-                        <li class="menu-item"><a href="#"><i class="fa fa-laptop"></i>Computer</a></li>
-                        <li class="menu-item"><a href="#"><i class="fa fa-television"></i>TV & Smart box</a></li>
-                        <li class="menu-item"><a href="#"><i class="fa fa-camera"></i>Camera & Photography</a></li>
-                        <li class="menu-item"><a href="#"><i class="fa fa-headphones"></i>Headphones</a></li>
-                        <li class="menu-item"><a href="#"><i class="fa fa-music"></i>Musical Instruments</a></li>
-                        <li class="menu-item"><a href="#"><i class="fa fa-mobile"></i>Smart phone & Tablets</a></li>
-                        <li class="menu-item"><a href="#"><i class="fa fa-bolt"></i>Accessories</a></li>
-                        <li class="menu-item"><a href="#"><i class="fa fa-microphone"></i>Home Audio & Theater</a></li>
-                        <li class="menu-item"><a href="#"><i class="fa fa-print"></i>Printer</a></li>
-                        <li class="menu-item"><a href="#"><i class="fa fa-fax"></i>Fax machine</a></li>
-                        <li class="menu-item"><a href="#"><i class="fa fa-spoon"></i>Household goods</a></li>
-                        <li class="menu-item"><a href="#"><i class="fa fa-clock-o"></i>Watch</a></li>
-                        <li class="menu-item"><a href="#"><i class="fa fa-random"></i>Other</a></li>
+                        <li class="menu-item"><a href="#"><i class="fa fa-laptop"></i>Women's Dresses</a></li>
+                        <li class="menu-item"><a href="#"><i class="fa fa-television"></i>Women's Tops</a></li>
+                        <li class="menu-item"><a href="#"><i class="fa fa-camera"></i>Women's Jackets</a></li>
+                        <li class="menu-item"><a href="#"><i class="fa fa-headphones"></i>Women's Heels</a></li>
+                        <li class="menu-item"><a href="#"><i class="fa fa-music"></i>Women's Flats</a></li>
+                        <li class="menu-item"><a href="#"><i class="fa fa-mobile"></i>Men's Shirts</a></li>
+                        <li class="menu-item"><a href="#"><i class="fa fa-bolt"></i>Men's Jackets</a></li>
+                        <li class="menu-item"><a href="#"><i class="fa fa-microphone"></i>Men's Shorts</a></li>
+                        <li class="menu-item"><a href="#"><i class="fa fa-print"></i>Men's Casual Shoes</a></li>
+                        <li class="menu-item"><a href="#"><i class="fa fa-fax"></i>Meen's Formal Shoes</a></li>
+                        <li class="menu-item"><a href="#"><i class="fa fa-spoon"></i>Fabrics</a></li>
                     </ul>
                 </div>
             </div>
@@ -150,12 +132,7 @@ bd63d5d  29 days ago
                 <!-- <div class="transport"><span class="ti-truck"></span>Track Your Order</div> -->
                 <div class="header-cart">
                     
-                    <div class="header-wishlist">
-                        <a href="#">
-                            <span class="icon icon_heart_alt"></span>
-                            <span class="count">1</span>
-                        </a>
-                    </div>
+                    
                     <div class="header-mini-cart">
                         <a href="#">
                             <span class="icon icon_profile"></span>
@@ -164,27 +141,50 @@ bd63d5d  29 days ago
                         <div class="mini-cart-content">
                             <ul class="items">
                                 <li class="item">
-                                    <a href="#" class="product-media"><img src="images/mn1.jpg" alt="img"></a>
-                                    <div class="product-info">
-                                        <div class="price">$460.00 x 1</div>
-                                        <div class="product-name"><a href="#">Kabino Bedside Table</a></div>
-                                    </div>
-                                    <a href="#" class="remove">x</a>
+                                    Hi Amy 
+                                    <span class="link"><a href="login.php">Sign In</a></span>
+                                </li>
+                                <li class="item header-title">
+                                    My Ogwugo
                                 </li>
                                 <li class="item">
-                                    <a href="#" class="product-media"><img src="images/mn2.jpg" alt="img"></a>
-                                    <div class="product-info">
-                                        <div class="price">$460.00 x 1</div>
-                                        <div class="product-name"><a href="#">Kabino Bedside Table</a></div>
-                                    </div>
-                                    <a href="#" class="remove">x</a>
+                                    My Orders<span class="count-inner">2</span>
+                                </li>
+                                <li class="item">
+                                    My Messages
+                                </li>
+                                <li class="item">
+                                    My Account
+                                </li>
+                                <hr style="margin:5px 0">
+                                <li class="item">
+                                    Submit enquiry <span style="display:block;font-size:11px;color:grey;line-height: 1.2em;">Get replied within 24 hours</span>
                                 </li>
                             </ul>
-                            <div class="subtotal">total:<span>$460.00</span></div>
-                            <div class="actions">
-                                <a href="shopping-cart.html" class="btn-process">VIEW CART</a>
-                                <a href="checkout.html" class="btn-process btn-checkout">CHECKOUT</a>
-                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="header-mini-cart">
+                        <a href="wishlist.php">
+                            <span class="icon icon_heart_alt"></span>
+                            <span class="count">1</span>
+                        </a>
+                        <div class="mini-cart-content">
+                            <ul class="items">
+                                <li class="item">
+                                    <button style="    width: 100%;
+    background: #e23e1d;
+    padding: 2px 20px;
+    border-radius: 3px;
+    font-size: 12px;">View all items</button>
+                                </li>
+                                
+                                <hr style="margin:12px 0">
+                                <li class="item">
+                                    Sign in to manage and view all items
+                                </li>
+                            </ul>
+                            
                         </div>
                     </div>
                 </div>

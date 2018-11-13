@@ -323,30 +323,49 @@ include('header.php');
         <div class="row">
             <div class="col-md-6">
                 <div class="desc-1">
-                    <div class="desc-caption">
+                    <div class="desc-caption-md">
                         <h4>Vases</h4>
                         <h6>See our beautiful range of vases and don't forget to check out the glass vases too</h6>
-                        <button>Shop Now</button>
+                        <button><a href="categories.php">Shop Now</a></button>
                     </div>
                 
                 </div>
             </div>
             <div class="col-md-6">
+                
                 <div class="desc-2">
-                    <img alt="" src="images/fab-008.jpg">
-                    <div class="desc-caption">
-                        <h4>Jugs & Saucers</h4>
-                        <h6>Don't miss our extensive range of jugs and saucers</h6>
-                        <button>Shop Now</button>
-                    </div>
+                    <table>
+                        <tr>
+                            <td>
+                                <img alt="" src="images/fab-008.jpg"> 
+                            </td>
+                            <td>
+                            <div class="desc-caption">
+                                <h4>Jugs & Saucers</h4>
+                                <h6>Don't miss our extensive range of jugs and saucers</h6>
+                                <button><a href="categories.php">Shop Now</a></button>
+                            </div>
+                            </td>
+                        </tr>
+                    </table>
                 </div>
+
                 <div class="desc-2">
-                    <img alt="" src="images/izo-1.jpg">
-                    <div class="desc-caption">
-                        <h4>Jugs & Saucers</h4>
-                        <h6>Don't miss our extensive range of jugs and saucers</h6>
-                        <button>Shop Now</button>
-                    </div>
+                    <table>
+                        <tr>
+                            <td>
+                                <img alt="" src="images/izo-1.jpg"> 
+                            </td>
+                            <td>
+                            <div class="desc-caption">
+                                <h4>Jugs & Saucers</h4>
+                                <h6>Don't miss our extensive range of jugs and saucers</h6>
+                                <button><a href="categories.php">Shop Now</a></button>
+                            </div>
+                            </td>
+                        </tr>
+                    </table>
+                    
                 </div>
             </div>
         </div>
@@ -383,8 +402,8 @@ include('header.php');
 
 <!-- top picks section -->
 <section id="section8" class="margin-bottom-40">
-    <div class="kt-tab">
-        <div class="tab-head">
+    <div class="">
+         <div class="tab-head">
             <h3 class="title-block">Textile Products</h3>
             
         </div>
@@ -395,11 +414,11 @@ include('header.php');
                         
                         <div class="product-media">
                             <figure>
-                                <a href="#">
+                                <a href="categories.php">
                                     <img alt="img" src="images/fab-003.jpg">
                                 </a>
                             </figure>
-                            <a href="#" class="quick-view">quick view</a>
+                            <a href="categories.php" class="quick-view">quick view</a>
                         </div>
                         
                         <div class="product-info">
@@ -407,7 +426,7 @@ include('header.php');
                                 <h3 class="product-name"><a href="#">Pryma Headphones, Rose Gold & Grey</a></h3>
                             </div>
                             <div class="product-content">
-                                <span class="price">$495.00</span>
+                                <span class="price">$40.00<span class="price-gray">/ piece</span></span>
                             </div> 
                             <div class="group-btn-control">
                                 <div class="inner">
@@ -422,11 +441,11 @@ include('header.php');
                         
                         <div class="product-media">
                             <figure>
-                                <a href="#">
+                                <a href="categories.php">
                                     <img alt="img" src="images/fab-007.jpg">
                                 </a>
                             </figure>
-                            <a href="#" class="quick-view">quick view</a>
+                            <a href="categories.php" class="quick-view">quick view</a>
                         </div>
                         
                         <div class="product-info">
@@ -434,7 +453,7 @@ include('header.php');
                                 <h3 class="product-name"><a href="#">Pryma Headphones, Rose Gold & Grey</a></h3>
                             </div>
                             <div class="product-content">
-                                <span class="price">$495.00</span>
+                                <span class="price">$40.00<span class="price-gray">/ piece</span></span>
                             </div>
                             <div class="group-btn-control">
                                 <div class="inner">
@@ -449,11 +468,11 @@ include('header.php');
                     <div class="product-item" id="product-item">
                         <div class="product-media">
                             <figure>
-                                <a href="#">
+                                <a href="categories.php">
                                     <img alt="img" src="images/fab-002.jpg">
                                 </a>
                             </figure>
-                            <a href="#" class="quick-view">quick view</a>
+                            <a href="categories.php" class="quick-view">quick view</a>
                         </div>
                         
                         <div class="product-info">
@@ -461,7 +480,7 @@ include('header.php');
                                 <h3 class="product-name"><a href="#">Pryma Headphones, Rose Gold & Grey</a></h3>
                             </div>
                             <div class="product-content">
-                                <span class="price">$495.00</span>
+                                <span class="price">$40.00<span class="price-gray">/ piece</span></span>
                             </div>
                             <div class="group-btn-control">
                                 <div class="inner">
@@ -476,18 +495,18 @@ include('header.php');
                             
                         <div class="product-media">
                             <figure>
-                                <a href="#">
+                                <a href="categories.php">
                                     <img alt="img" src="images/fab-003.jpg">
                                 </a>
                             </figure>
-                            <a href="#" class="quick-view">quick view</a>
+                            <a href="categories.php" class="quick-view">quick view</a>
                         </div>
                         <div class="product-info">
                             <div class="product-top equal-elem">
                                 <h3 class="product-name"><a href="#">Pryma Headphones, Rose Gold & Grey</a></h3>
                             </div>
                             <div class="product-content">
-                                <span class="price">$495.00</span>
+                                <span class="price">$40.00<span class="price-gray">/ piece</span></span>
                             </div>
                             <div class="group-btn-control">
                                 <div class="inner">
@@ -502,11 +521,11 @@ include('header.php');
                         
                         <div class="product-media">
                             <figure>
-                                <a href="#">
+                                <a href="categories.php">
                                     <img alt="img" src="images/fab-004.jpg">
                                 </a>
                             </figure>
-                            <a href="#" class="quick-view">quick view</a>
+                            <a href="categories.php" class="quick-view">quick view</a>
                         </div>
                         
                         <div class="product-info">
@@ -514,7 +533,7 @@ include('header.php');
                                 <h3 class="product-name"><a href="#">Pryma Headphones, Rose Gold & Grey</a></h3>
                             </div>
                             <div class="product-content">
-                                <span class="price">$495.00</span>
+                                <span class="price">$40.00<span class="price-gray">/ piece</span></span>
                             </div>
                             <div class="group-btn-control">
                                 <div class="inner">
@@ -528,11 +547,11 @@ include('header.php');
                     <div class="product-item" id="product-item">
                         <div class="product-media">
                             <figure>
-                                <a href="#">
+                                <a href="categories.php">
                                     <img alt="img" src="images/fab-002.jpg">
                                 </a>
                             </figure>
-                            <a href="#" class="quick-view">quick view</a>
+                            <a href="categories.php" class="quick-view">quick view</a>
                         </div>
                         
                         <div class="product-info">
@@ -540,7 +559,7 @@ include('header.php');
                                 <h3 class="product-name"><a href="#">Pryma Headphones, Rose Gold & Grey</a></h3>
                             </div>
                             <div class="product-content">
-                                <span class="price">$495.00</span>
+                                <span class="price">$40.00<span class="price-gray">/ piece</span></span>
                             </div>
                             <div class="group-btn-control">
                                 <div class="inner">
@@ -555,11 +574,11 @@ include('header.php');
                         
                         <div class="product-media">
                             <figure>
-                                <a href="#">
+                                <a href="categories.php">
                                     <img alt="img" src="images/fab-005.jpg">
                                 </a>
                             </figure>
-                            <a href="#" class="quick-view">quick view</a>
+                            <a href="categories.php" class="quick-view">quick view</a>
                         </div>
                         
                         <div class="product-info">
@@ -567,7 +586,7 @@ include('header.php');
                                 <h3 class="product-name"><a href="#">Pryma Headphones, Rose Gold & Grey</a></h3>
                             </div>
                             <div class="product-content">
-                                <span class="price">$495.00</span>
+                                <span class="price">$40.00<span class="price-gray">/ piece</span></span>
                             </div>
                             <div class="group-btn-control">
                                 <div class="inner">
@@ -582,11 +601,11 @@ include('header.php');
                             
                         <div class="product-media">
                             <figure>
-                                <a href="#">
+                                <a href="categories.php">
                                     <img alt="img" src="images/fab-006.jpg">
                                 </a>
                             </figure>
-                            <a href="#" class="quick-view">quick view</a>
+                            <a href="categories.php" class="quick-view">quick view</a>
                         </div>
                         
                         <div class="product-info">
@@ -594,7 +613,7 @@ include('header.php');
                                 <h3 class="product-name"><a href="#">Pryma Headphones, Rose Gold & Grey</a></h3>
                             </div> 
                             <div class="product-content">
-                                <span class="price">$495.00</span>
+                                <span class="price">$40.00<span class="price-gray">/ piece</span></span>
                             </div>
                             
                             <div class="group-btn-control">
@@ -610,11 +629,11 @@ include('header.php');
                         
                         <div class="product-media">
                             <figure>
-                                <a href="#">
+                                <a href="categories.php">
                                     <img alt="img" src="images/fab-007.jpg">
                                 </a>
                             </figure>
-                            <a href="#" class="quick-view">quick view</a>
+                            <a href="categories.php" class="quick-view">quick view</a>
                         </div>
                         
                         <div class="product-info">
@@ -622,7 +641,7 @@ include('header.php');
                                 <h3 class="product-name"><a href="#">Pryma Headphones, Rose Gold & Grey</a></h3>
                             </div>
                             <div class="product-content">
-                                <span class="price">$495.00</span>
+                                <span class="price">$40.00<span class="price-gray">/ piece</span></span>
                             </div>
                             
                             <div class="group-btn-control">
@@ -650,7 +669,7 @@ include('header.php');
                                 <h3 class="product-name"><a href="#">Pryma Headphones, Rose Gold & Grey</a></h3>
                             </div> 
                             <div class="product-content">
-                                <span class="price">$495.00</span>
+                                <span class="price">$40.00<span class="price-gray">/ piece</span></span>
                             </div> 
                             
                             <div class="group-btn-control">
@@ -681,7 +700,7 @@ include('header.php');
                                 <h3 class="product-name"><a href="#">Pryma Headphones, Rose Gold & Grey</a></h3>
                             </div>
                             <div class="product-content">
-                                <span class="price">$495.00</span>
+                                <span class="price">$40.00<span class="price-gray">/ piece</span></span>
                             </div>
                             <div class="group-btn-control">
                                 <div class="inner">
@@ -707,7 +726,7 @@ include('header.php');
                                 <h3 class="product-name"><a href="#">Pryma Headphones, Rose Gold & Grey</a></h3>
                             </div>
                             <div class="product-content">
-                                <span class="price">$495.00</span>
+                                <span class="price">$40.00<span class="price-gray">/ piece</span></span>
                             </div>
                             <div class="group-btn-control">
                                 <div class="inner">
@@ -733,7 +752,7 @@ include('header.php');
                                 <h3 class="product-name"><a href="#">Pryma Headphones, Rose Gold & Grey</a></h3>
                             </div>
                             <div class="product-content">
-                                <span class="price">$495.00</span>
+                                <span class="price">$40.00<span class="price-gray">/ piece</span></span>
                             </div>
                             <div class="group-btn-control">
                                 <div class="inner">
@@ -760,7 +779,7 @@ include('header.php');
                                 <h3 class="product-name"><a href="#">Pryma Headphones, Rose Gold & Grey</a></h3>
                             </div>
                             <div class="product-content">
-                                <span class="price">$495.00</span>
+                                <span class="price">$40.00<span class="price-gray">/ piece</span></span>
                             </div>
                             <div class="group-btn-control">
                                 <div class="inner">
@@ -786,7 +805,7 @@ include('header.php');
                                 <h3 class="product-name"><a href="#">Pryma Headphones, Rose Gold & Grey</a></h3>
                             </div>
                             <div class="product-content">
-                                <span class="price">$495.00</span>
+                                <span class="price">$40.00<span class="price-gray">/ piece</span></span>
                             </div>
                             <div class="group-btn-control">
                                 <div class="inner">
@@ -812,7 +831,7 @@ include('header.php');
                                 <h3 class="product-name"><a href="#">Pryma Headphones, Rose Gold & Grey</a></h3>
                             </div>
                             <div class="product-content">
-                                <span class="price">$495.00</span>
+                                <span class="price">$40.00<span class="price-gray">/ piece</span></span>
                             </div>
                             <div class="group-btn-control">
                                 <div class="inner">
@@ -839,7 +858,7 @@ include('header.php');
                                 <h3 class="product-name"><a href="#">Pryma Headphones, Rose Gold & Grey</a></h3>
                             </div>
                             <div class="product-content">
-                                <span class="price">$495.00</span>
+                                <span class="price">$40.00<span class="price-gray">/ piece</span></span>
                             </div>
                             <div class="group-btn-control">
                                 <div class="inner">
@@ -897,7 +916,7 @@ include('header.php');
     <div class="title-head">
         <h3 class="title-block">You may like </h3>
     </div>
-    <div class="owl-carousel nav-style-1" data-nav="true" data-autoplay="false" data-dots="false" data-loop="true" data-margin="20" data-responsive='{"0":{"items":1},"400":{"items":3},"640":{"items":3},"768":{"items":2},"992":{"items":4},"1199":{"items":5},"1366":{"items":5},"1620":{"items":6}}'>
+    <div class="owl-carousel nav-style-1" data-nav="true" data-autoplay="false" data-dots="false" data-loop="true" data-margin="20" data-responsive='{"0":{"items":1},"380":{"items":2},"640":{"items":3},"768":{"items":3},"992":{"items":4},"1199":{"items":5},"1366":{"items":5},"1620":{"items":6}}'>
         <div class="product-categories style1">
             <div class="thumb">
                 <figure><img src="images/sm-01.jpg" alt=""></figure>

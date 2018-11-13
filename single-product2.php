@@ -28,7 +28,7 @@ include('header.php');
 ?>
 
 <div class="main-content">
-    <div class="">
+    <div class="" style="background-color: #f5f5f5;">
         <div class="site-content-inner">
             <div class="breadcrumb margin-bottom-50">
                 <div class="container-wapper">
@@ -51,25 +51,26 @@ include('header.php');
             </div>
             
             <div class="container-wapper">
+                <div class="container">
                 <div class="row">
                     <div class="col-md-9 col-lg-9">
                         <div class="product-single margin-bottom-40">
                             <div class="product-single-media thumb-vertical">
                                 <a href="#" class="e-zoom"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
-                                <div class="slider slider-for">
+                                <div class="slider slider-for product-single-thumb">
                                     <img src="images/img-001.jpg" alt="img">
                                     <img src="images/lager2-img.jpg" alt="img">
                                     <img src="images/lager3-img.jpg" alt="img">
                                     <img src="images/lager1-img.jpg" alt="img">
                                 </div>
-                                <div class="slider slider-nav">
-                                    <div><img src="images/thumb1.jpg" alt="img"></div>
-                                    <div><img src="images/thumb2.jpg" alt="img"></div>
-                                    <div><img src="images/thumb3.jpg" alt="img"></div>
-                                    <div><img src="images/thumb1.jpg" alt="img"></div>
+                                <div class="image-thumb-list">
+                                    <li><span class="img-thumb-item"><img src="images/img-001.jpg" alt="img"></span></li>
+                                    <li><span class="img-thumb-item"><img src="images/img-001.jpg" alt="img"></span></li>
+                                    <li><span class="img-thumb-item"><img src="images/img-001.jpg" alt="img"></span></li>
+                                    <li><span class="img-thumb-item"><img src="images/img-001.jpg" alt="img"></span></li>
                                 </div>
                             </div>
-                            <div class="product-single-info" style="border: 1px solid #eaeaea;padding:0;">
+                            <div class="product-single-info" style="border: 0.8px solid #eaeaea;padding:0;">
                                 <h1 class="product-title">Apple The New MacBook Retina 2016 MLHA2 12 inches</h1>
                                 
                                 <div class="product-single-button" style="padding:0;">
@@ -98,27 +99,7 @@ include('header.php');
                                         <a href="#" class="add_to_cart">Contact Seller</a>
                                         <a href="#" class="add_to_compare">Start Order</a>
                                     </div>
-                                    <!-- <div class="seclect-color">
-                                        <span>Select Color:</span>
-                                        <label class="inline"><input type="checkbox"><span class="input"></span></label>
-                                        <label class="inline"><input type="checkbox"><span class="input"></span></label>
-                                        <label class="inline"><input type="checkbox"><span class="input"></span></label>
-                                    </div>
-                                    <div class="quantity">
-                                        <span class="label-quantity">Quatity:</span>
-                                        <div class="buttons_added">
-                                            <a href="#" class="sign minus"><i class="fa fa-caret-up"></i></a>
-                                            <input type="text" value="1" title="Qty" class="input-text qty text" size="1">
-                                            <a href="#" class="sign plus"><i class="fa fa-caret-down"></i></a>
-                                        </div>
-                                    </div> -->
-                                    
-                                    <!-- <div class="method-shiping">
-                                        <p class="items"><i class="fa fa-check" aria-hidden="true"></i>Satisfaction 100% Guaranteed</p>
-                                        <p class="items"><i class="fa fa-check" aria-hidden="true"></i>Free shipping on orders over $99</p>
-                                        <p class="items"><i class="fa fa-check" aria-hidden="true"></i>14 day easy Return</p>
-                                    </div> -->
-
+                                  
                                 </div>
                             </div>
                             
@@ -134,12 +115,9 @@ include('header.php');
                                 <div id="tab-1" class="tab-panel active">
                                     <div class="box-content equal-container">
                                         <h3 class="title">Product Information</h3>
-                                            
-                                            <!-- <h4>Quick Details</h4> -->
-                                            
                                         <div class="product-dt">
                                             <table>
-                                                <td width="45%">
+                                                <td width="40%">
                                                     Age Group:
                                                 </td>
                                                 <td width="60%">
@@ -149,7 +127,7 @@ include('header.php');
                                         </div>
                                         <div class="product-dt">
                                             <table>
-                                                <td width="45%">
+                                                <td width="40%">
                                                     Gender:
                                                 </td>
                                                 <td width="60%">
@@ -159,7 +137,7 @@ include('header.php');
                                         </div>
                                         <div class="product-dt">
                                             <table>
-                                                <td width="45%">
+                                                <td width="40%">
                                                     Size:
                                                 </td>
                                                 <td width="60%">
@@ -169,7 +147,7 @@ include('header.php');
                                         </div>
                                         <div class="product-dt">
                                             <table>
-                                                <td width="45%">
+                                                <td width="40%">
                                                     Color:
                                                 </td>
                                                 <td width="60%">
@@ -179,7 +157,7 @@ include('header.php');
                                         </div>
                                         <div class="product-dt">
                                             <table>
-                                                <td width="45%">
+                                                <td width="40%">
                                                     Style:
                                                 </td>
                                                 <td width="60%">
@@ -189,7 +167,7 @@ include('header.php');
                                         </div>
                                         <div class="product-dt">
                                             <table>
-                                                <td width="45%">
+                                                <td width="40%">
                                                     Logo:
                                                 </td>
                                                 <td width="60%">
@@ -199,7 +177,7 @@ include('header.php');
                                         </div>
                                         <div class="product-dt">
                                             <table>
-                                                <td width="45%">
+                                                <td width="40%">
                                                     Accessory Type:
                                                 </td>
                                                 <td width="60%">
@@ -209,7 +187,7 @@ include('header.php');
                                         </div>
                                         <div class="product-dt">
                                             <table>
-                                                <td width="45%">
+                                                <td width="40%">
                                                     Place of Origin:
                                                 </td>
                                                 <td width="60%">
@@ -219,17 +197,17 @@ include('header.php');
                                         </div>
                                         <div class="product-dt">
                                             <table>
-                                                <td width="45%">
+                                                <td width="40%">
                                                     MOQ:
                                                 </td>
-                                                <td width="45%">
+                                                <td width="60%">
                                                     120pcs   
                                                 </td>
                                             </table>
                                         </div>
                                         <div class="product-dt">
                                             <table>
-                                                <td width="45%">
+                                                <td width="40%">
                                                     Age Group:
                                                 </td>
                                                 <td width="60%">
@@ -239,7 +217,7 @@ include('header.php');
                                         </div>
                                         <div class="product-dt">
                                             <table>
-                                                <td width="45%">
+                                                <td width="40%">
                                                     Gender:
                                                 </td>
                                                 <td width="60%">
@@ -249,7 +227,7 @@ include('header.php');
                                         </div>
                                         <div class="product-dt">
                                             <table>
-                                                <td width="45%">
+                                                <td width="40%">
                                                     Size:
                                                 </td>
                                                 <td width="60%">
@@ -259,7 +237,7 @@ include('header.php');
                                         </div>
                                         <div class="product-dt">
                                             <table>
-                                                <td width="45%">
+                                                <td width="40%">
                                                     Color:
                                                 </td>
                                                 <td width="60%">
@@ -269,7 +247,7 @@ include('header.php');
                                         </div>
                                         <div class="product-dt">
                                             <table>
-                                                <td width="45%">
+                                                <td width="40%">
                                                     Style:
                                                 </td>
                                                 <td width="60%">
@@ -279,7 +257,7 @@ include('header.php');
                                         </div>
                                         <div class="product-dt">
                                             <table>
-                                                <td width="45%">
+                                                <td width="40%">
                                                     Logo:
                                                 </td>
                                                 <td width="60%">
@@ -288,80 +266,222 @@ include('header.php');
                                             </table>
                                         </div>
                                     </div>
-                                        
-                                        
-                                    <div class="row margin-bottom-80 clearfix">
-                                        <div class="col-sm-12 col-md-6 equal-elem">
-                                            <a href="#"><img src="images/image-review2.jpg" alt="" class="img-responsive"></a>
-                                        </div>
-                                        <div class="col-sm-12 col-md-6 equal-elem">
-                                            <a href="#"><img src="images/image-review2.jpg" alt="" class="img-responsive"></a>
-                                        </div>
-                                    </div>
-                                    <div class="row margin-bottom-80">
-                                        <div class="col-sm-12 col-md-6 equal-elem">
-                                            <a href="#"><img src="images/image-review2.jpg" alt="" class="img-responsive"></a>
-                                        </div>
-                                        <div class="col-sm-12 col-md-6 equal-elem">
-                                            <a href="#"><img src="images/image-review2.jpg" alt="" class="img-responsive"></a>
-                                        </div>
-                                    </div>
-                                        
-                                </div>
-                                <div id="tab-2" class="tab-panel">
-                                    <!-- <table class="review-attributes">
-                                            <tbody>
+                                    <div style="clear: both;"></div><hr class="dotted-hr">
+                                    
+                                    <div class="box-content equal-container">
+                                        <h3 class="title">Supply Ability</h3>
+                                        <div class="product-dt-ex">
+                                            <table>
                                                 <tr>
-                                                    <th>Customer Rating</th>
+                                                <td>
+                                                Supply Ability:
+                                                </td>
+                                                <td>
+                                                1000000 Piece/Pieces per Month Hanging Party Decorations Large Pom Pom Balls    
+                                                </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+
+                                    <div style="clear: both;"></div><hr class="dotted-hr">
+
+                                    <div class="box-content equal-container">
+                                        <h3 class="title">Packaging & Delivery</h3>
+                                        <div class="product-dt-ex">
+                                            <table>
+                                                <tr>
+                                                    <td>Packaging Details:</td>
                                                     <td>
-                                                        <div class="star-rating">
-                                                            <a href="#"><i class="fa fa-star"></i></a>
-                                                            <a href="#"><i class="fa fa-star"></i></a>
-                                                            <a href="#"><i class="fa fa-star"></i></a>
-                                                            <a href="#"><i class="fa fa-star"></i></a>
-                                                            <a href="#"><i class="fa fa-star-o"></i></a>
-                                                            <span>(5)</span>
-                                                        </div>
+                                                    paper pom ball : 1 pc/opp, 200pcs/ctn or according to customer's request.  
                                                     </td>
                                                 </tr>
                                                 <tr>
-                                                    <th>Price</th>
-                                                    <td><div class="price">$495.00</div></td>
+                                                    <td>Ships from:</td>
+                                                    <td>Aba, Nigeria.</td>
                                                 </tr>
-                                                <tr>
-                                                    <th>RAM Size</th>
-                                                    <td><p>8 GB</p></td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Screen Size</th>
-                                                    <td><p>13 in</p></td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Display Technology</th>
-                                                    <td><p>LED</p></td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Hard-Drive Size</th>
-                                                    <td><p>128 GB</p></td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Operating System</th>
-                                                    <td><p>Mac OS X</p></td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Wireless Compatibility</th>
-                                                    <td><p>802.11abg, 802.11 A/C, 802.11 a/b/g/n, 802.11A</p></td>
-                                                </tr>
-                                            </tbody>
-                                        </table> -->
-                                        <h4>Trade Capacity</h4>
-                                        <table>
-                                            <tr>
-                                                <td></td>
-                                                <td></td>
-                                            </tr>
-                                        </table>
+                                            </table>
+                                        </div>
+                                    </div>
 
+                                    <div style="clear: both;"></div>
+                                    <hr class="dotted-hr">
+                                    <div class="box-content equal-container">
+                                        <h3 class="title">Product Image</h3>
+                                        
+                                        <div class="row margin-bottom-80 clearfix">
+                                            <div class="col-sm-12 col-md-6 equal-elem">
+                                                <a href="#"><img src="images/image-review2.jpg" alt="" class="img-responsive"></a>
+                                            </div>
+                                            <div class="col-sm-12 col-md-6 equal-elem">
+                                                <a href="#"><img src="images/image-review2.jpg" alt="" class="img-responsive"></a>
+                                            </div>
+                                        </div>
+                                        <div class="row margin-bottom-80">
+                                            <div class="col-sm-12 col-md-6 equal-elem">
+                                                <a href="#"><img src="images/image-review2.jpg" alt="" class="img-responsive"></a>
+                                            </div>
+                                            <div class="col-sm-12 col-md-6 equal-elem">
+                                                <a href="#"><img src="images/image-review2.jpg" alt="" class="img-responsive"></a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div id="tab-2" class="tab-panel">
+                                <div class="box-content equal-container">
+                                        <h3 class="title">Product Information</h3>
+                                        <div class="product-dt">
+                                            <table>
+                                                <td width="40%">
+                                                    Age Group:
+                                                </td>
+                                                <td width="60%">
+                                                    Adult    
+                                                </td>
+                                            </table>
+                                        </div>
+                                        <div class="product-dt">
+                                            <table>
+                                                <td width="40%">
+                                                    Gender:
+                                                </td>
+                                                <td width="60%">
+                                                    Unisex    
+                                                </td>
+                                            </table>
+                                        </div>
+                                        <div class="product-dt">
+                                            <table>
+                                                <td width="40%">
+                                                    Size:
+                                                </td>
+                                                <td width="60%">
+                                                    Adult Size    
+                                                </td>
+                                            </table>
+                                        </div>
+                                        <div class="product-dt">
+                                            <table>
+                                                <td width="40%">
+                                                    Color:
+                                                </td>
+                                                <td width="60%">
+                                                    Customized    
+                                                </td>
+                                            </table>
+                                        </div>
+                                        <div class="product-dt">
+                                            <table>
+                                                <td width="40%">
+                                                    Style:
+                                                </td>
+                                                <td width="60%">
+                                                    Character    
+                                                </td>
+                                            </table>
+                                        </div>
+                                        <div class="product-dt">
+                                            <table>
+                                                <td width="40%">
+                                                    Logo:
+                                                </td>
+                                                <td width="60%">
+                                                    Custom Designed Logo   
+                                                </td>
+                                            </table>
+                                        </div>
+                                        <div class="product-dt">
+                                            <table>
+                                                <td width="40%">
+                                                    Accessory Type:
+                                                </td>
+                                                <td width="60%">
+                                                    Ribbon & Rope    
+                                                </td>
+                                            </table>
+                                        </div>
+                                        <div class="product-dt">
+                                            <table>
+                                                <td width="40%">
+                                                    Place of Origin:
+                                                </td>
+                                                <td width="60%">
+                                                    Aba, Nigeria    
+                                                </td>
+                                            </table>
+                                        </div>
+                                        <div class="product-dt">
+                                            <table>
+                                                <td width="40%">
+                                                    MOQ:
+                                                </td>
+                                                <td width="60%">
+                                                    120pcs   
+                                                </td>
+                                            </table>
+                                        </div>
+                                        <div class="product-dt">
+                                            <table>
+                                                <td width="40%">
+                                                    Age Group:
+                                                </td>
+                                                <td width="60%">
+                                                    Adult    
+                                                </td>
+                                            </table>
+                                        </div>
+                                        <div class="product-dt">
+                                            <table>
+                                                <td width="40%">
+                                                    Gender:
+                                                </td>
+                                                <td width="60%">
+                                                    Unisex    
+                                                </td>
+                                            </table>
+                                        </div>
+                                        <div class="product-dt">
+                                            <table>
+                                                <td width="40%">
+                                                    Size:
+                                                </td>
+                                                <td width="60%">
+                                                    Adult Size    
+                                                </td>
+                                            </table>
+                                        </div>
+                                        <div class="product-dt">
+                                            <table>
+                                                <td width="40%">
+                                                    Color:
+                                                </td>
+                                                <td width="60%">
+                                                    Customized    
+                                                </td>
+                                            </table>
+                                        </div>
+                                        <div class="product-dt">
+                                            <table>
+                                                <td width="40%">
+                                                    Style:
+                                                </td>
+                                                <td width="60%">
+                                                    Character    
+                                                </td>
+                                            </table>
+                                        </div>
+                                        <div class="product-dt">
+                                            <table>
+                                                <td width="40%">
+                                                    Logo:
+                                                </td>
+                                                <td width="60%">
+                                                    Custom Designed Logo   
+                                                </td>
+                                            </table>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div id="tab-3" class="tab-panel">
                                     <div class="box-content">
@@ -370,6 +490,7 @@ include('header.php');
                                                 <li class="comment">
                                                     <div class="comment-item">
                                                         <div class="comment-author">
+                                                            <p>Girlie o</p>
                                                             <img class="avatar" src="images/avata4.png" alt="">
                                                             <div class="star-rating">
                                                                 <a href="#"><i class="fa fa-star"></i></a>
@@ -379,18 +500,23 @@ include('header.php');
                                                                 <a href="#"><i class="fa fa-star-o"></i></a>
                                                             </div>
                                                         </div>
-                                                        <div class="comment-body">
-                                                            <span class="date">27 Aug 2016</span>
-                                                            <h6 class="author">Jenney Kelley</h6>
+                                                        <div class="comment-date" style="float:right">
                                                             <div class="comment-content">
-                                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                                                                <span class="date">27 Aug 2016</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="comment-body">
+                                                            <div class="comment-content">
+                                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </li><!-- #comment-## -->
+                                                <hr>
                                                 <li class="comment">
                                                     <div class="comment-item">
                                                         <div class="comment-author">
+                                                        <p>Brandon W</p>
                                                             <img class="avatar" src="images/avata5.png" alt="">
                                                             <div class="star-rating">
                                                                 <a href="#"><i class="fa fa-star"></i></a>
@@ -400,9 +526,12 @@ include('header.php');
                                                                 <a href="#"><i class="fa fa-star-o"></i></a>
                                                             </div>
                                                         </div>
+                                                        <div class="comment-date" style="float:right">
+                                                            <div class="comment-content">
+                                                                <span class="date">27 Aug 2016</span>
+                                                            </div>
+                                                        </div>
                                                         <div class="comment-body">
-                                                            <span class="date">27 Aug 2016</span>
-                                                            <h6 class="author">Brandon William</h6>
                                                             <div class="comment-content">
                                                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
                                                             </div>
@@ -413,31 +542,19 @@ include('header.php');
                                         </div>
                                         <div class="comment-respond" id="respond">
                                             <form class="comment-form">
-                                                <h5 class="title-comment-form">Add Review</h5>
-                                                <div class="row">
-                                                    <div class="col-lg-6">
-                                                        <div class="form-input">
-                                                            <input type="text" placeholder="Name*" class="input-form" id="name">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-6">
-                                                        <div class="form-input">
-                                                            <input type="text" placeholder="Email*" class="input-form" id="email">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="rating-comment">
-                                                    <span>Your Rating: </span>
-                                                    <div class="star-rating">
-                                                        <a href="#"><i class="fa fa-star"></i></a>
-                                                        <a href="#"><i class="fa fa-star"></i></a>
-                                                        <a href="#"><i class="fa fa-star"></i></a>
-                                                        <a href="#"><i class="fa fa-star"></i></a>
-                                                        <a href="#"><i class="fa fa-star"></i></a>
-                                                    </div>
-                                                </div>
+                                                <!-- <h5 class="title-comment-form">Add Review</h5> -->
+                                               
                                                 <div class="message-comment">
-                                                    <textarea placeholder="Your Review" class="textarea-form" rows="5" id="message" ></textarea>
+                                                    <div style="text-align: left;float: left;">
+                                                        <label style="width:14%">To:</label>
+                                                        <span style="margin-left: 10px">Tony Xang</span>
+                                                    </div>
+                                                    <div style="clear:both;text-align: left;">
+                                                        <label style="width: 10%;float: left;">Message</label>
+                                                        <div style="text-align: left;display: grid;">
+                                                            <textarea placeholder="Include your message details such as MOQ, product color, size, FOB etc." class="textarea-form" rows="5" id="message" ></textarea>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </form>
                                         </div>
@@ -446,114 +563,42 @@ include('header.php');
                             </div>
                         </div>
                     </div>
+                   
                     <div class="col-md-3 col-lg-3">
-                        <div class="seller-card">
-                            <div style="width:60px;height:60px; display:inline-block; border-radius:50%; border:1px solid red;">
-                                <img src="images/shoe-logo.jpg">
-                            </div>
-                            <p style="inline-block">Shenzhen Union Hatter Manufacture Co., Ltd.</p>
-                        </div>
-                        <div id="secondary" class="sidebar col-sidebar">
-                            
-                            <!-- Widget Latest Products -->
-                            <div class="widget widget-latest-post margin-bottom-30">
-                                <h4 class="title-widget">Latest Products</h4>
-                                <div class="owl-carousel nav-style-1" data-nav="true" data-autoplay="false" data-dots="false" data-loop="true" data-margin="0" data-responsive='{"0":{"items":1},"600":{"items":1},"1000":{"items":1}}'>
-                                    <ul class="recent-posts-list">
-                                        <li>
-                                            <div class="thumb">
-                                                <a href="#">
-                                                    <img src="images/l1.jpg" class="thumbnail-shop" alt="">
-                                                </a>
-                                            </div>
-                                            <div class="info">
-                                                <span class="product-title">Vantech VP-153C Camera</span>
-                                                <span class="price">
-                                                <del>229.99</del>
-                                                <ins>$195.00</ins>
-                                            </span>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="thumb">
-                                                <a href="#">
-                                                    <img src="images/l2.jpg" class="thumbnail-shop" alt="">
-                                                </a>
-                                            </div>
-                                            <div class="info">
-                                                <span class="product-title">Vantech VP-153C Camera</span>
-                                                <span class="price">
-                                                <del>229.99</del>
-                                                <ins>$195.00</ins>
-                                            </span>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="thumb">
-                                                <a href="#">
-                                                    <img src="images/l3.jpg" class="thumbnail-shop" alt="">
-                                                </a>
-                                            </div>
-                                            <div class="info">
-                                                <span class="product-title">Vantech VP-153C Camera</span>
-                                                <span class="price">
-                                                <del>229.99</del>
-                                                <ins>$195.00</ins>
-                                            </span>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                    <ul class="recent-posts-list">
-                                        <li>
-                                            <div class="thumb">
-                                                <a href="#">
-                                                    <img src="images/l1.jpg" class="thumbnail-shop" alt="">
-                                                </a>
-                                            </div>
-                                            <div class="info">
-                                                <span class="product-title">Vantech VP-153C Camera</span>
-                                                <span class="price">
-                                                <del>229.99</del>
-                                                <ins>$195.00</ins>
-                                            </span>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="thumb">
-                                                <a href="#">
-                                                    <img src="images/l2.jpg" class="thumbnail-shop" alt="">
-                                                </a>
-                                            </div>
-                                            <div class="info">
-                                                <span class="product-title">Vantech VP-153C Camera</span>
-                                                <span class="price">
-                                                <del>229.99</del>
-                                                <ins>$195.00</ins>
-                                            </span>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="thumb">
-                                                <a href="#">
-                                                    <img src="images/l3.jpg" class="thumbnail-shop" alt="">
-                                                </a>
-                                            </div>
-                                            <div class="info">
-                                                <span class="product-title">Vantech VP-153C Camera</span>
-                                                <span class="price">
-                                                <del>229.99</del>
-                                                <ins>$195.00</ins>
-                                            </span>
-                                            </div>
-                                        </li>
-                                    </ul>
+                        <div class="" style="border:1px solid #eaeaea; background:white; padding:5px 8px;">
+                            <div class="seller-card">
+                                <div style="width:60px;height:60px; display:inline-block; border-radius:50%; border:1px solid red;">
+                                    <img src="images/shoe-logo.jpg">
+                                </div>
+                                <div style="display: inline-block;float: right;width: 175px;">
+                                    <p style="inline-block">Shenzhen Union Hatter Manufacture Co., Ltd.</p>
                                 </div>
                             </div>
-                            <!-- End Widget Latest Products -->
+                            <hr>
+                            <div>
+                                <table>
+                                    <tr>
+                                        <td>Response Time</td>
+                                        <td><i class="fa fa-clock"></i><24h</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Response Time</td>
+                                        <td><i class="fa fa-clock"></i><24h</td>
+                                    </tr>
+                                </table>
+                            </div>
+                              
+                            <div class="method-shiping">
+                                <p class="items"><i class="fa fa-check" aria-hidden="true"></i>Satisfaction 100% Guaranteed</p>
+                                <p class="items"><i class="fa fa-check" aria-hidden="true"></i>Free shipping on orders over $99</p>
+                                <p class="items"><i class="fa fa-check" aria-hidden="true"></i>14 day easy Return</p>
+                            </div>
+                            <a href="#" style="text-align:center">View Company Profile</a>
                         </div>
+                        
                     </div>
                 </div>
-                
+                <div>
             </div>
             <!-- <div class="container-wapper">
                 <section id="section4" class="margin-bottom-80">
