@@ -102,15 +102,16 @@
       border: none;
   }
   
-  textarea {
-    outline: none;
-    border: none;
+   textarea {
+    margin-bottom: 40px;
+    background: white;
+    border-radius:3px;
   }
-  
+   /*
   textarea:focus, input:focus {
     border-color: transparent !important;
   }
-  
+  */
   input:focus::-webkit-input-placeholder { color:transparent; }
   input:focus:-moz-placeholder { color:transparent; }
   input:focus::-moz-placeholder { color:transparent; }
@@ -249,7 +250,14 @@
     left: 0;
     background: rgba(0,0,0,0.1);
   }
-  
+  .register-more {
+    width: calc(100% - 520px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
   
   
   /*==================================================================
@@ -274,7 +282,13 @@
     margin-bottom: 35px;
   }
   
-  
+  .register-form {
+    width: 520px;
+    min-height: 100vh;
+    display: block;
+    background-color: #f7f7f7;
+    padding: 75px 10px 55px 10px;
+}
   
   /*------------------------------------------------------------------
   [ Input ]*/
@@ -332,6 +346,7 @@
     -moz-transition: all 0.4s;
     transition: all 0.4s;
     border-radius: 3px;
+    background: white;
   }
   
   /*---------------------------------------------*/

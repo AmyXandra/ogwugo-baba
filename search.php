@@ -30,29 +30,17 @@ include('header.php');
 
 <div class="main-content">
     <div class="site-content-inner">
-        <!-- <div class="breadcrumb margin-bottom-50">
-            <div class="container-wapper">
-                <div class="breadcrumb-wrap">
-                    <nav class="breadcrumb-trail breadcrumbs">
-                        <ul class="trail-items">
-                            <li class="trail-item trail-begin">
-                                <a href="#"><span>Home</span></a>
-                            </li>
-                            <li class="trail-item trail-begin">
-                                <a href="#"><span>Smartphones & Tablets </span></a>
-                            </li>
-                            <li class="trail-item trail-end">
-                                <span>Wishlist</span>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </div> -->
-        <div class="container">
+       
+        <div class="container margin-top-40 margin-bottom-50">
             <div class="row">
                 <div class="col-md-2">
-                    yass
+                    <div class="search-tabs">
+                        <ul>
+                            <li><a href=""><span class="icon icon_ul"></span> RELATED CATEGORY</a></li>
+                            <li><a href=""><span class="icon icon_book_alt"></span> Product Features</a></li>
+                            <li><a href=""><span class="icon icon_clock_alt"></span> My History</a></li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="col-md-10">
                     <div class="wishlist-tabs">
@@ -61,141 +49,100 @@ include('header.php');
                             <li><a href="#wish-supplier">Suppliers</a></li>
                         </ul>
                         <div class="tab-content">
-                            <div id="wish-product" class="product-cart tab-pane active">
-                                <table class="shop-table cart">
-                                    <tbody>
+                            <div class="product-cart tab-pane active">
+                                <div class="search-item">
+                                    <div class="product-thumbnail img-wrap">
+                                        <a href="#"><img src="images/sm-01.jpg" alt="img"/></a>
+                                    </div>
+                                    <div class="product-name main-wrap">
+                                        <div>
+                                        <li class="pdt-name"><a href="#">Apple The New MacBook Retina</a></li>
+                                        </div>
+                                        <table>
                                         <tr class="cart-item">
-                                            <td class="product-thumbnail" data-title="Image">
-                                                <a href="#"><img src="images/sm-01.jpg" alt="img"/></a>
-                                            </td>
-                                            <td class="product-name" data-title="Product Name">
-                                                <li class="pdt-name"><a href="#">Apple The New MacBook Retina</a></li>
-                                                <li class="pdt-store"><a href="#">Sold by Nnamani Shoes</a></li>
+                                            <td width="38%" data-title="Product Name">
                                                 <li class="pdt-price"><span>US $0.56 - $4.37</span> / Piece</li>
                                                 <li class="pdt-amt"><span>12 Pieces</span>(Min.Order)</li>
-                                                <li class="pdt-msg"><a href="#"><i class="fa fa-edit"></i> Remarks</a></li>
                                             </td>
-                                            <td class="product-contact">
-                                                <a href="#"><button><span class="icon icon_mail"></span>Contact Supplier</button></a>
+                                            <td width="" class="product-contact">
+                                                <li class="pdt-store">material: imported turkey feather</li>
+                                                <li class="pdt-store">color: any color available , like red ,black, white.</li>
+                                                <li class="pdt-store">Occasion: ALL PARTY</li>
+                                                <li class="pdt-store">Type: Other Holiday Supplies</li>
+                                                <li class="pdt-store">size: 180CM*60G</li>
+                                                <li class="pdt-store">Place of Origin: Anhui,China (Mainland)</li>
                                             </td>
                                         </tr>
+                                        </table>
+                                    </div>
+                                    <div class="item-extra">
+                                        <li class="pdt-store"> Huizhou Wonderful Packaging</li>
+                                        <li class="pdt-store">Aba, Nigeria</li>
+                                        <a href="#"><button><span class="icon icon_mail"></span>CONTACT SUPPLIER</button></a>
+                                    </div>
+                                </div>
+                                <div class="search-item">
+                                    <div class="product-thumbnail img-wrap">
+                                        <a href="#"><img src="images/sm-01.jpg" alt="img"/></a>
+                                    </div>
+                                    <div class="product-name main-wrap">
+                                        <div>
+                                        <li class="pdt-name"><a href="#">Apple The New MacBook Retina</a></li>
+                                        </div>
+                                        <table>
                                         <tr class="cart-item">
-                                            <td class="product-thumbnail" data-title="Image">
-                                                <a href="#"><img src="images/sm-02.jpg" alt="img"/></a>
-                                            </td>
-                                            <td class="product-name" data-title="Product Name">
-                                                <li class="pdt-name"><a href="#">Apple The New MacBook Retina</a></li>
-                                                <li class="pdt-store"><a href="#">Sold by Nnamani Shoes</a></li>
+                                            <td width="38%" data-title="Product Name">
                                                 <li class="pdt-price"><span>US $0.56 - $4.37</span> / Piece</li>
                                                 <li class="pdt-amt"><span>12 Pieces</span>(Min.Order)</li>
-                                                <li class="pdt-msg"><a href="#"><i class="fa fa-edit"></i> Remarks</a></li>
                                             </td>
-                                            <td class="product-contact">
-                                                <a href="#"><button><span class="icon icon_mail"></span>Contact Supplier</button></a>
+                                            <td width="" class="product-contact">
+                                                <li class="pdt-store">material: imported turkey feather</li>
+                                                <li class="pdt-store">color: any color available , like red ,black, white.</li>
+                                                <li class="pdt-store">Occasion: ALL PARTY</li>
+                                                <li class="pdt-store">Type: Other Holiday Supplies</li>
+                                                <li class="pdt-store">size: 180CM*60G</li>
+                                                <li class="pdt-store">Place of Origin: Anhui,China (Mainland)</li>
                                             </td>
                                         </tr>
+                                        </table>
+                                    </div>
+                                    <div class="item-extra">
+                                        <li class="pdt-store"> Huizhou Wonderful Packaging</li>
+                                        <li class="pdt-store">Aba, Nigeria</li>
+                                        <a href="#"><button><span class="icon icon_mail"></span>CONTACT SUPPLIER</button></a>
+                                    </div>
+                                </div>
+                                <div class="search-item">
+                                    <div class="product-thumbnail img-wrap">
+                                        <a href="#"><img src="images/sm-01.jpg" alt="img"/></a>
+                                    </div>
+                                    <div class="product-name main-wrap">
+                                        <div>
+                                        <li class="pdt-name"><a href="#">Apple The New MacBook Retina</a></li>
+                                        </div>
+                                        <table>
                                         <tr class="cart-item">
-                                            <td class="product-thumbnail" data-title="Image">
-                                                <a href="#"><img src="images/sm-04.jpg" alt="img"/></a>
-                                            </td>
-                                            <td class="product-name" data-title="Product Name">
-                                                <li class="pdt-name"><a href="#">Apple The New MacBook Retina</a></li>
-                                                <li class="pdt-store"><a href="#">Sold by Nnamani Shoes</a></li>
+                                            <td width="38%" data-title="Product Name">
                                                 <li class="pdt-price"><span>US $0.56 - $4.37</span> / Piece</li>
                                                 <li class="pdt-amt"><span>12 Pieces</span>(Min.Order)</li>
-                                                <li class="pdt-msg"><a href="#"><i class="fa fa-edit"></i> Remarks</a></li>
                                             </td>
-                                            <td class="product-contact">
-                                                <a href="#"><button><span class="icon icon_mail"></span>Contact Supplier</button></a>
-                                            </td>
-                                        </tr>
-                                        <tr class="cart-item">
-                                            <td class="product-thumbnail" data-title="Image">
-                                                <a href="#"><img src="images/sm-02.jpg" alt="img"/></a>
-                                            </td>
-                                            <td class="product-name" data-title="Product Name">
-                                                <li class="pdt-name"><a href="#">Apple The New MacBook Retina</a></li>
-                                                <li class="pdt-store"><a href="#">Sold by Nnamani Shoes</a></li>
-                                                <li class="pdt-price"><span>US $0.56 - $4.37</span> / Piece</li>
-                                                <li class="pdt-amt"><span>12 Pieces</span>(Min.Order)</li>
-                                                <li class="pdt-msg"><a href="#"><i class="fa fa-edit"></i> Remarks</a></li>
-                                            </td>
-                                            <td class="product-contact">
-                                                <a href="#"><button><span class="icon icon_mail"></span>Contact Supplier</button></a>
+                                            <td width="" class="product-contact">
+                                                <li class="pdt-store">material: imported turkey feather</li>
+                                                <li class="pdt-store">color: any color available , like red ,black, white.</li>
+                                                <li class="pdt-store">Occasion: ALL PARTY</li>
+                                                <li class="pdt-store">Type: Other Holiday Supplies</li>
+                                                <li class="pdt-store">size: 180CM*60G</li>
+                                                <li class="pdt-store">Place of Origin: Anhui,China (Mainland)</li>
                                             </td>
                                         </tr>
-                                        
-                                    </tbody>
-                                </table>
-                                <!-- <a href="#" class="btn-check">CONTINUE SHOPPING</a> -->
-                            </div>
-                            <div id="wish-supplier" class="product-cart tab-pane">
-                                <table class="shop-table cart">
-                                    <tbody>
-                                        <tr class="cart-item">
-                                            <td class="product-thumbnail" data-title="Image">
-                                                <a href="#"><img src="images/sm-01.jpg" alt="img"/></a>
-                                            </td>
-                                            <td class="product-name" data-title="Product Name">
-                                                <li class="pdt-name"><a href="#">Apple The New MacBook Retina</a></li>
-                                                <li class="pdt-store"><a href="#">Sold by Nnamani Shoes</a></li>
-                                                <li class="pdt-price"><span>US $0.56 - $4.37</span> / Piece</li>
-                                                <li class="pdt-amt"><span>12 Pieces</span>(Min.Order)</li>
-                                                <li class="pdt-msg"><a href="#"><i class="fa fa-edit"></i> Remarks</a></li>
-                                            </td>
-                                            <td class="product-contact">
-                                                <a href="#"><button><span class="icon icon_mail"></span>Contact Supplier</button></a>
-                                            </td>
-                                        </tr>
-                                        <tr class="cart-item">
-                                            <td class="product-thumbnail" data-title="Image">
-                                                <a href="#"><img src="images/sm-02.jpg" alt="img"/></a>
-                                            </td>
-                                            <td class="product-name" data-title="Product Name">
-                                                <li class="pdt-name"><a href="#">Apple The New MacBook Retina</a></li>
-                                                <li class="pdt-store"><a href="#">Sold by Nnamani Shoes</a></li>
-                                                <li class="pdt-price"><span>US $0.56 - $4.37</span> / Piece</li>
-                                                <li class="pdt-amt"><span>12 Pieces</span>(Min.Order)</li>
-                                                <li class="pdt-msg"><a href="#"><i class="fa fa-edit"></i> Remarks</a></li>
-                                            </td>
-                                            <td class="product-contact">
-                                                <a href="#"><button><span class="icon icon_mail"></span>Contact Supplier</button></a>
-                                            </td>
-                                        </tr>
-                                        <tr class="cart-item">
-                                            <td class="product-thumbnail" data-title="Image">
-                                                <a href="#"><img src="images/sm-04.jpg" alt="img"/></a>
-                                            </td>
-                                            <td class="product-name" data-title="Product Name">
-                                                <li class="pdt-name"><a href="#">Apple The New MacBook Retina</a></li>
-                                                <li class="pdt-store"><a href="#">Sold by Nnamani Shoes</a></li>
-                                                <li class="pdt-price"><span>US $0.56 - $4.37</span> / Piece</li>
-                                                <li class="pdt-amt"><span>12 Pieces</span>(Min.Order)</li>
-                                                <li class="pdt-msg"><a href="#"><i class="fa fa-edit"></i> Remarks</a></li>
-                                            </td>
-                                            <td class="product-contact">
-                                                <a href="#"><button><span class="icon icon_mail"></span>Contact Supplier</button></a>
-                                            </td>
-                                        </tr>
-                                        <tr class="cart-item">
-                                            <td class="product-thumbnail" data-title="Image">
-                                                <a href="#"><img src="images/sm-02.jpg" alt="img"/></a>
-                                            </td>
-                                            <td class="product-name" data-title="Product Name">
-                                                <li class="pdt-name"><a href="#">Apple The New MacBook Retina</a></li>
-                                                <li class="pdt-store"><a href="#">Sold by Nnamani Shoes</a></li>
-                                                <li class="pdt-price"><span>US $0.56 - $4.37</span> / Piece</li>
-                                                <li class="pdt-amt"><span>12 Pieces</span>(Min.Order)</li>
-                                                <li class="pdt-msg"><a href="#"><i class="fa fa-edit"></i> Remarks</a></li>
-                                            </td>
-                                            <td class="product-contact">
-                                                <a href="#"><button><span class="icon icon_mail"></span>Contact Supplier</button></a>
-                                            </td>
-                                        </tr>
-                                        
-                                    </tbody>
-                                </table>
-                                <!-- <a href="#" class="btn-check">CONTINUE SHOPPING</a> -->
+                                        </table>
+                                    </div>
+                                    <div class="item-extra">
+                                        <li class="pdt-store"> Huizhou Wonderful Packaging</li>
+                                        <li class="pdt-store">Aba, Nigeria</li>
+                                        <a href="#"><button><span class="icon icon_mail"></span>CONTACT SUPPLIER</button></a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
