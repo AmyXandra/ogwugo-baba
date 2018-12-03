@@ -97,17 +97,17 @@
                 </div>
                 <div class="vertical-menu-content">
                     <ul class="vertical-menu-items">
-                        <li class="menu-item"><a href="#"><i class="fa fa-laptop"></i>Women's Dresses</a></li>
-                        <li class="menu-item"><a href="#"><i class="fa fa-television"></i>Women's Tops</a></li>
-                        <li class="menu-item"><a href="#"><i class="fa fa-camera"></i>Women's Jackets</a></li>
-                        <li class="menu-item"><a href="#"><i class="fa fa-headphones"></i>Women's Heels</a></li>
-                        <li class="menu-item"><a href="#"><i class="fa fa-music"></i>Women's Flats</a></li>
-                        <li class="menu-item"><a href="#"><i class="fa fa-mobile"></i>Men's Shirts</a></li>
-                        <li class="menu-item"><a href="#"><i class="fa fa-bolt"></i>Men's Jackets</a></li>
-                        <li class="menu-item"><a href="#"><i class="fa fa-microphone"></i>Men's Shorts</a></li>
-                        <li class="menu-item"><a href="#"><i class="fa fa-print"></i>Men's Casual Shoes</a></li>
-                        <li class="menu-item"><a href="#"><i class="fa fa-fax"></i>Meen's Formal Shoes</a></li>
-                        <li class="menu-item"><a href="#"><i class="fa fa-spoon"></i>Fabrics</a></li>
+                        <li class="menu-item"><a href="#"><img src="images/icons/dress.svg">Women's Dresses</a></li>
+                        <li class="menu-item"><a href="#"><img src="images/icons/women-blouse.svg">Women's Tops</a></li>
+                        <li class="menu-item"><a href="#"><img src="images/icons/jacket.svg">Women's Jackets</a></li>
+                        <li class="menu-item"><a href="#"><img src="images/icons/high-heels.svg">Women's Heels</a></li>
+                        <li class="menu-item"><a href="#"><img src="images/icons/flats.svg">Women's Flats</a></li>
+                        <li class="menu-item"><a href="#"><img src="images/icons/shirt.svg">Men's Shirts</a></li>
+                        <li class="menu-item"><a href="#"><img src="images/icons/blazer.svg">Men's Jackets</a></li>
+                        <li class="menu-item"><a href="#"><img src="images/icons/shorts.svg">Men's Shorts</a></li>
+                        <li class="menu-item"><a href="#"><img src="images/icons/shoes.svg">Men's Casual Shoes</a></li>
+                        <li class="menu-item"><a href="#"><img src="images/icons/groom-shoes.svg">Men's Formal Shoes</a></li>
+                        <li class="menu-item"><a href="#"><img src="images/icons/fabrics.svg">Fabrics</a></li>
                     </ul>
                 </div>
             </div>

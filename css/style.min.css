@@ -6595,7 +6595,11 @@ blockquote span {
     text-align: center;
     margin-right: 20px
 }
-
+.vertical-menu-content li a img {
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+}
 .vertical-menu-content .vertical-menu-items>li {
     padding: 5px 20px
 }
