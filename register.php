@@ -84,20 +84,22 @@
 					</div>
 					
 					<div class="form-row">
-						<div class="col-md-6">
+						<!-- <div class="col-md-6">
 							<div class="wrap-input100 validate-input" data-validate="Password is required">
-								<input class="input100" type="password" name="pass">
+								<input  class="input100" type="hidden" name="pass">
 								<span class="focus-input100"></span>
 								<span class="label-input100">Longitude</span>
 							</div>
+
 						</div>
+
 						<div class="col-md-6">
 							<div class="wrap-input100 validate-input" data-validate="Password is required">
-								<input class="input100" type="password" name="pass">
+								<input class="input100" type="hidden" name="pass">
 								<span class="focus-input100"></span>
 								<span class="label-input100">Latitude</span>
 							</div>
-						</div>
+						</div> -->
 					</div>
 					
 					<div class="form-row">
