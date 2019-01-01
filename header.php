@@ -96,18 +96,29 @@
                     </div>
                 </div>
                 <div class="vertical-menu-content">
+                    
                     <ul class="vertical-menu-items">
-                        <li class="menu-item"><a href="#"><img src="images/icons/dress.svg">Women's Dresses</a></li>
-                        <li class="menu-item"><a href="#"><img src="images/icons/women-blouse.svg">Women's Tops</a></li>
-                        <li class="menu-item"><a href="#"><img src="images/icons/jacket.svg">Women's Jackets</a></li>
-                        <li class="menu-item"><a href="#"><img src="images/icons/high-heels.svg">Women's Heels</a></li>
-                        <li class="menu-item"><a href="#"><img src="images/icons/flats.svg">Women's Flats</a></li>
-                        <li class="menu-item"><a href="#"><img src="images/icons/shirt.svg">Men's Shirts</a></li>
-                        <li class="menu-item"><a href="#"><img src="images/icons/blazer.svg">Men's Jackets</a></li>
-                        <li class="menu-item"><a href="#"><img src="images/icons/shorts.svg">Men's Shorts</a></li>
-                        <li class="menu-item"><a href="#"><img src="images/icons/shoes.svg">Men's Casual Shoes</a></li>
-                        <li class="menu-item"><a href="#"><img src="images/icons/groom-shoes.svg">Men's Formal Shoes</a></li>
-                        <li class="menu-item"><a href="#"><img src="images/icons/fabrics.svg">Fabrics</a></li>
+                    <?php
+                $ch = curl_init();
+                    $url = 'http://ogwugo.net/api/v2/app/categories/parent';
+                    curl_setopt($ch, CURLOPT_URL, $url);
+                    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+                    curl_setopt($ch,CURLOPT_HEADER,'Content-Type:application/json');
+                    curl_setopt($ch,CURLOPT_HTTPHEADER, ['Authorization:Basic b2d3dWdvX3NlcnZpY2U6ZzU3ODI3NmRzZmZkYmE=']);
+                    $res =  curl_exec($ch);
+                     $new = json_decode($res,true);
+                    //  print_r($new['data']);
+                     foreach ($new['data'] as $key => $value) {
+                       print_r("<li class='menu-item'><a href='#'><img src={$value['image']} />{$value['name']}</a></li>");
+                     }
+                    if(curl_errno($ch))
+                    {
+                        print curl_error($ch);
+                    }
+                    curl_close($ch);
+
+
+                    ?>
                     </ul>
                 </div>
             </div>
