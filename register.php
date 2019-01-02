@@ -3,7 +3,7 @@
 
 <head>
 <meta charset="utf-8">
-<title>Homepage Multi Market - SmartMarket</title>
+<title>Homepage Multi Market - Register</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 <link rel='stylesheet' type='text/css' href='css/bootstrap.min.css'>
 <link rel='stylesheet' type='text/css' href='css/font-awesome.css'/>
@@ -32,23 +32,23 @@
 <div class="limiter">
 		<div class="container-login100">
 			<div class="wrap-login100">
-				<form class="register-form validate-form">
+				<form class="register-form validate-form" method="POST" action="<?php $_SERVER['PHP_SELF'] ?>">
 					<span class="login100-form-title p-b-43">
 						Register
 					</span>
 					
 					<div class="form-row">
 						<div class="col-md-6">
-							<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-								<input class="input100" type="text" name="email">
+							<div class="wrap-input100 validate-input" data-validate = "Usrname is required">
+								<input class="input100" id="uname" type="text" name="Username">
 								<span class="focus-input100"></span>
 								<span class="label-input100">Username</span>
 							</div>
 						</div>
 
 						<div class="col-md-6">
-							<div class="wrap-input100 validate-input" data-validate="Password is required">
-								<input class="input100" type="password" name="pass">
+							<div class="wrap-input100 validate-input" data-validate="Email is required">
+								<input class="input100" id="email" type="email" name="Email">
 								<span class="focus-input100"></span>
 								<span class="label-input100">Email</span>
 							</div>
@@ -58,15 +58,15 @@
 					
 					<div class="form-row">
 						<div class="col-md-6">
-							<div class="wrap-input100 validate-input" data-validate="Password is required">
-								<input class="input100" type="password" name="pass">
+							<div class="wrap-input100 validate-input" data-validate="Phonenmber is required">
+								<input class="input100" id="phone" type="phoneNumber" name="Phonenumber">
 								<span class="focus-input100"></span>
 								<span class="label-input100">Phone Number</span>
 							</div>
 						</div>
 						<div class="col-md-6">
 							<div class="wrap-input100 validate-input" data-validate="Password is required">
-								<input class="input100" type="password" name="pass">
+								<input class="input100" id="password" type="password" name="Password">
 								<span class="focus-input100"></span>
 								<span class="label-input100">Password</span>
 							</div>
@@ -74,44 +74,17 @@
 					</div>
 					
 					
-					<div class="form-row">
-						<div class="col-md-6">
-
-						</div>
-						<div class="col-md-6">
-						
-						</div>
-					</div>
-					
-					<div class="form-row">
-						<!-- <div class="col-md-6">
-							<div class="wrap-input100 validate-input" data-validate="Password is required">
-								<input  class="input100" type="hidden" name="pass">
-								<span class="focus-input100"></span>
-								<span class="label-input100">Longitude</span>
-							</div>
-
-						</div>
-
-						<div class="col-md-6">
-							<div class="wrap-input100 validate-input" data-validate="Password is required">
-								<input class="input100" type="hidden" name="pass">
-								<span class="focus-input100"></span>
-								<span class="label-input100">Latitude</span>
-							</div>
-						</div> -->
-					</div>
 					
 					<div class="form-row">
 						<div class="col-md-12">
-							<textarea rows="4" cols="55" placeholder="Enter your address here"></textarea>
+							<textarea rows="4" cols="55" id="address" placeholder="Enter your address here"></textarea>
 						</div>
 					</div>
 					<div class="clearfix"></div>
 					<div class="form-row">
 						<div class="col-md-12">
 							<div class="container-login100-form-btn">
-								<button class="login100-form-btn">
+								<button class="login100-form-btn" type="submit" name="register">
 									Register
 								</button>
 							</div>
@@ -151,6 +124,7 @@
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="{{app.assets}}/assets/js/ogwugofood/login.js?{{app.time}}"></script>
     <script type="text/javascript" src="{{app.assets}}/assets/js/app.js"></script>
+	<script src="./js/registration.js"></script>
 </body>
 
 </html>

@@ -3,7 +3,7 @@
 
 <head>
 <meta charset="utf-8">
-<title>Homepage Multi Market - SmartMarket</title>
+<title>Homepage Multi Market - Login</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 <link rel='stylesheet' type='text/css' href='css/bootstrap.min.css'>
 <link rel='stylesheet' type='text/css' href='css/font-awesome.css'/>
@@ -32,21 +32,22 @@
 <div class="limiter">
 		<div class="container-login100">
 			<div class="wrap-login100">
-				<form class="login100-form validate-form">
+				<form class="login100-form validate-form"
+				 action="<?php echo $_SERVER['PHP_SELF']?>" method="POST">
 					<span class="login100-form-title p-b-43">
 						Login to continue
 					</span>
 					
 					
 					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-						<input class="input100" type="text" name="email">
+						<input class="input100" id="email" type="email" name="email">
 						<span class="focus-input100"></span>
 						<span class="label-input100">Email</span>
 					</div>
 					
 					
 					<div class="wrap-input100 validate-input" data-validate="Password is required">
-						<input class="input100" type="password" name="pass">
+						<input class="input100" id="password" type="password" name="password">
 						<span class="focus-input100"></span>
 						<span class="label-input100">Password</span>
 					</div>
@@ -68,7 +69,7 @@
 			
 
 					<div class="container-login100-form-btn">
-						<button class="login100-form-btn">
+						<button class="login100-form-btn" type="submit">
 							Login
 						</button>
 					</div>
@@ -106,6 +107,7 @@
 	
 
     <script type="text/javascript" src="{{app.assets}}/assets/js/jquery-3.2.1.min.js"></script>
+	<script src="./js/login.js"></script>
     <script type="text/javascript" src="{{app.assets}}/assets/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gasparesganga-jquery-loading-overlay@1.5.4/src/loadingoverlay.min.js" type="text/javascript"></script>
     <script src="https://cdn.jsdelivr.net/npm/gasparesganga-jquery-loading-overlay@1.5.4/extras/loadingoverlay_progress/loadingoverlay_progress.min.js" type="text/javascript"></script>
