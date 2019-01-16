@@ -99,8 +99,8 @@
                     
                     <ul class="vertical-menu-items">
                     <?php
-                $ch = curl_init();
-                    $url = 'http://ogwugo.net/api/v2/app/categories/parent';
+                     $ch = curl_init();
+                    $url = 'http://i.ogwugo.net/api/v2/app/categories/parent';
                     curl_setopt($ch, CURLOPT_URL, $url);
                     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
                     curl_setopt($ch,CURLOPT_HEADER,'Content-Type:application/json');
@@ -116,8 +116,6 @@
                         print curl_error($ch);
                     }
                     curl_close($ch);
-
-
                     ?>
                     </ul>
                 </div>
