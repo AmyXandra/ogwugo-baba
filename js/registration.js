@@ -31,7 +31,7 @@ $('form').on('submit', function(e) {
     console.log(longi, lati);
 
     $.ajax({
-        url: 'http://ogwugo.net/api/v2/app/registration/user',
+        url: 'http://i.ogwugo.net/api/v2/app/registration/user',
         method: 'POST',
         beforeSend: (request) => {
             console.log('Loading...');

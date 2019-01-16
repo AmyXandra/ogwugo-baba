@@ -6,7 +6,7 @@ $('form').on('submit', function (e) {
     const password = $('#password').val();
 
     $.ajax({
-        url: 'http://ogwugo.net/api/v2/app/auth',
+        url: 'http://i.ogwugo.net/api/v2/app/auth',
         async: true,
         beforeSend: () => {
             console.log('Loading...');

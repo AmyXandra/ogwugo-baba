@@ -35,7 +35,7 @@ paginationDiv.innerHTML = '';
                                                 <img alt="img" src="${products.image_icon_path}">
                                             </a>
                                         </figure>
-                                        <a href="#" class="quick-view">quick view</a>
+                                        <a href="#" onclick="loadSingleProduct(${products.id},${products.url})" class="quick-view">quick view</a>
                                     </div>
                                     <div class="product-top equal-elem">
                                         <span class="cat-list">Camera</span>
