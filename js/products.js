@@ -1,6 +1,10 @@
+
 window.addEventListener('load',function(){
+    window.localStorage.clear('id','url');
     fecthProducts(1);
 });
+
+
 
 function fecthProducts(page){
     let container = document.getElementById('products-container');
@@ -8,7 +12,7 @@ function fecthProducts(page){
 paginationDiv.innerHTML = '';
     container.innerHTML = '';
     $.ajax({
-        url: 'http://i.ogwugo.net/api/v2/app/products/list/all',
+        url: 'http://i.ogwugo.net/api/v2/app/products/store/1/all',
         data:{
             limit:10,
             page_id:page
@@ -24,8 +28,13 @@ paginationDiv.innerHTML = '';
         success: (data,jqXHR, textStatus) => {
 
             let newdata = Object.values(data);
-
+            console.log(newdata[0]);
+          let store =   newdata[0].filter(p => {
+                p.store == 1;
+            })
+            console.log(store);
             newdata[0].forEach(products => {
+
               let product =   `
                 <div class="product-item" id="product-item">
                                 
@@ -35,7 +44,7 @@ paginationDiv.innerHTML = '';
                                                 <img alt="img" src="${products.image_icon_path}">
                                             </a>
                                         </figure>
-                                        <a href="#" onclick="loadSingleProduct(${products.id},${products.url})" class="quick-view">quick view</a>
+                                        <a onclick="loadSingleProducts(${products.id},'${products.url}')" class="quick-view">quick view</a>
                                     </div>
                                     <div class="product-top equal-elem">
                                         <span class="cat-list">Camera</span>

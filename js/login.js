@@ -6,21 +6,21 @@ $('form').on('submit', function (e) {
     const password = $('#password').val();
 
     $.ajax({
-        url: 'http://i.ogwugo.net/api/v2/app/auth',
+        url: 'https://i.ogwugo.net/api/v2/app/auth',
         async: true,
         beforeSend: () => {
-            console.log('Loading...');
+            console.log('Loading...',email,password);
         },
         data: {
             password: password,
             email: email,
             cart_id:'0',
-            domain:'local',
+            domain:'international',
             platform:'web'
            },
         complete: (jqXHR, textStatus) => {
             var parsed = jqXHR.responseJSON;
-            // console.log(parsed, textStatus);
+            console.log(parsed, textStatus);
             var data = Object.values(parsed);
             console.log(data[2]);
         },

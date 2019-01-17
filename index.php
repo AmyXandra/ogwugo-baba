@@ -580,7 +580,9 @@ include('footer.php');
 <script type="text/javascript" src="js/jquery.plugin.min.js"></script>
 <script type="text/javascript" src="js/jquery.countdown.min.js"></script>
 <script type="text/javascript" src="js/frontend.min.js"></script>
+<script src="./js/global.js"></script>
 <script src="./js/products.js"></script>
+
 
 </body>
 </html>

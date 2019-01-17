@@ -28,16 +28,7 @@ $('form').on('submit', function(e) {
     const longi = window.Plongitude;
     const lati = window.Platitude;
 
-    console.log(longi, lati);
-
-    $.ajax({
-        url: 'http://i.ogwugo.net/api/v2/app/registration/user',
-        method: 'POST',
-        beforeSend: (request) => {
-            console.log('Loading...');
-            request.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-        },
-        data: {
+    let userData = {
             username: username,
             password: password,
             email: email,
@@ -51,7 +42,17 @@ $('form').on('submit', function(e) {
             cart_id: 0,
             domain: 'international',
             platform: 'web'
+        };
+    // console.log(longi, lati);
+
+    $.ajax({
+        url: 'http://i.ogwugo.net/api/v2/app/registration/user',
+        method: 'POST',
+        beforeSend: (request) => {
+            console.log('Please wait,Loading...');
+            request.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
         },
+        data: userData,
         complete: (jqXHR, textStatus) => {
             var parsed = jqXHR.responseJSON;
             var data = Object.values(parsed);
